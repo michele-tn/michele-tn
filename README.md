@@ -12,44 +12,45 @@ https://gist.github.com/michele-tn/0d2cd5c0196a711dcfc127ada6af9559
 
 '(◣_◢)'
 
-# **Favorite links**
+# **Favorite links** ●▬▬▬▬๑|๑▬▬▬▬▬●
 ▂▃▅▇█▓▒░۩۞۩        ۩۞۩░▒▓█▇▅▃▂
 
 
 #### *Webmin — Powerful and flexible web-based server management control panel*
 https://github.com/webmin/webmin
-══════════════════════════════════
+═════════════════════════════════
 
 
 #### *Awesome-tunneling — List of ngrok/Cloudflare Tunnel alternatives and other tunneling software and services. Focus on self-hosting.*
 https://github.com/anderspitman/awesome-tunneling
-══════════════════════════════════
+═════════════════════════════════
 
 
 #### *RDP Wrapper Library*
 https://github.com/sebaxakerhtc/rdpwrap
-══════════════════════════════════
+═════════════════════════════════
 
 
 #### *HFS — HFS is a web file server to run on your computer. Share folders or even a single file thanks to the virtual file system.*
 https://github.com/rejetto/hfs
-══════════════════════════════════
+═════════════════════════════════
 
 
 #### *Systeminformer — A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com*
 https://github.com/winsiderss/systeminformer/
-══════════════════════════════════
+═════════════════════════════════
 
 
 #### *Openmediavault — openmediavault is the next generation network attached storage (NAS) solution based on Debian Linux. Thanks to the modular design of the framework it can be enhanced via plugins. openmediavault is primarily designed to be used in home environments or small home offices.*
 https://github.com/openmediavault/openmediavault
-══════════════════════════════════
+═════════════════════════════════
 
 
 #### *Neofetch — A command-line system information tool written in bash 3.2+*
 https://github.com/dylanaraps/neofetch
-══════════════════════════════════
+═════════════════════════════════
 
 
 #### *Pfetch — A pretty system information tool written in POSIX sh.*
 https://github.com/dylanaraps/pfetch
+═════════════════════════════════

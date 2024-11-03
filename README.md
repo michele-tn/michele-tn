@@ -12,8 +12,8 @@ https://gist.github.com/michele-tn/0d2cd5c0196a711dcfc127ada6af9559
 
 '(◣_◢)'
 
-# **Favorite links** ●▬▬▬▬๑|๑▬▬▬▬▬●
-▂▃▅▇█▓▒░۩۞۩        ۩۞۩░▒▓█▇▅▃▂
+#  ●▬▬▬▬๑|๑▬▬▬▬▬● **Favorite links** ●▬▬▬▬๑|๑▬▬▬▬▬●
+                    ▂▃▅▇█▓▒░۞░▒▓█▇▅▃▂
 
 
 #### *Webmin — Powerful and flexible web-based server management control panel*

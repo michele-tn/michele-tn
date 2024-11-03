@@ -6,7 +6,7 @@ https://github.com/michele-tn/V2RayN-PowerShellC0nf19/blob/main/Download_V2RayN.
 ## (MULTIPLE TCP TUNNELING) Connecting and Loading SSH private keys automatically on plink
 https://gist.github.com/michele-tn/9afa8a91582b238bfdb009954c98b7b2
 
-## Downloads the latest version of Rustdesk (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.
+## Downloads the latest version of RUSTDESK (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.
 https://gist.github.com/michele-tn/0d2cd5c0196a711dcfc127ada6af9559
 
 # **Favorite links**

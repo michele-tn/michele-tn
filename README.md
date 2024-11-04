@@ -32,7 +32,8 @@ https://github.com/sebaxakerhtc/rdpwrap
 https://github.com/rejetto/hfs
 # ═════════════════════════════════
 #### *Systeminformer — A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com*
-https://github.com/winsiderss/systeminformer/
+https://github.com/winsiderss/systeminformer/ <br><br>
+![Screenshot](./find_handles.png)
 # ═════════════════════════════════
 #### *Openmediavault — openmediavault is the next generation network attached storage (NAS) solution based on Debian Linux. Thanks to the modular design of the framework it can be enhanced via plugins. openmediavault is primarily designed to be used in home environments or small home offices.*
 https://github.com/openmediavault/openmediavault

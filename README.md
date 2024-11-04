@@ -16,7 +16,8 @@ https://gist.github.com/michele-tn/0d2cd5c0196a711dcfc127ada6af9559
 
 
 #### *Webmin — Powerful and flexible web-based server management control panel*
-https://github.com/webmin/webmin
+https://github.com/webmin/webmin<br><br>
+![Screenshot](./1-dashboard.png)
 # ═════════════════════════════════
 #### *Awesome-tunneling — List of ngrok/Cloudflare Tunnel alternatives and other tunneling software and services. Focus on self-hosting.*
 https://github.com/anderspitman/awesome-tunneling

@@ -40,10 +40,11 @@ https://github.com/winsiderss/systeminformer/ <br><br>
 # ═════════════════════════════════
 #### *Openmediavault — openmediavault is the next generation network attached storage (NAS) solution based on Debian Linux. Thanks to the modular design of the framework it can be enhanced via plugins. openmediavault is primarily designed to be used in home environments or small home offices.*
 https://github.com/openmediavault/openmediavault<br><br>
-![Screenshot](./omv6_dashboard.png)
+![Screenshot](./68747470733a2f2f726164656e6b752e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032322f30332f6e656f66657463682d6f70656e7772742e77656270.webp)
 # ═════════════════════════════════
 #### *Neofetch — A command-line system information tool written in bash 3.2+*
-https://github.com/dylanaraps/neofetch
+https://github.com/dylanaraps/neofetch<br><br>
+![Screenshot](./omv6_dashboard.png)
 # ═════════════════════════════════
 #### *Pfetch — A pretty system information tool written in POSIX sh.*
 https://github.com/dylanaraps/pfetch

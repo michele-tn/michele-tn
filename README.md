@@ -65,6 +65,11 @@ https://oguzhaninan.github.io/Stacer-Web/<br><br>
 https://github.com/oguzhaninan/Stacer<br><br>
 ![Screenshot](./dashboard.png)
 # ═════════════════════════════════
-### MobaXterm — Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more
+### *MobaXterm — Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more*
 https://mobaxterm.mobatek.net/<br><br>
 ![Screenshot](./MobaXterm.png)
+# ═════════════════════════════════
+### *EtherApe — EtherApe is a graphical network monitor for Unix modeled after etherman. Featuring link layer, IP and TCP modes, it displays network activity graphically. Hosts and links change in size with traffic. Color coded protocols display.*
+https://etherape.sourceforge.io/<br><br>
+![Screenshot](./v0.9.3.png)
+# ═════════════════════════════════

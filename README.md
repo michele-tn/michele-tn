@@ -47,5 +47,15 @@ https://github.com/dylanaraps/neofetch<br><br>
 ![Screenshot](./68747470733a2f2f726164656e6b752e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032322f30332f6e656f66657463682d6f70656e7772742e77656270.webp)
 # ═════════════════════════════════
 #### *Pfetch — A pretty system information tool written in POSIX sh.*
-https://github.com/dylanaraps/pfetch
+https://github.com/dylanaraps/pfetch<br><br>
 # ═════════════════════════════════
+### *tcptrack — Monitor TCP connections on the network*
+https://explainshell.com/explain/1/tcptrack<br><br>
+# ═════════════════════════════════
+### *bpytop — Linux/OSX/FreeBSD resource monitor*
+https://github.com/aristocratos/bpytop<br><br>
+# ═════════════════════════════════
+### *bleachbit — BleachBit system cleaner for Windows and Linux*
+https://github.com/bleachbit/bleachbit<br><br>
+# ═════════════════════════════════
+

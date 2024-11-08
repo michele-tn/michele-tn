@@ -59,4 +59,7 @@ https://github.com/aristocratos/bpytop<br><br>
 https://github.com/bleachbit/bleachbit<br><br>
 ![Screenshot](./bleachbit320_windows10_preview_700x467.webp)
 # ═════════════════════════════════
+### *Stacer — Linux System Optimizer & Monitoring*
+https://oguzhaninan.github.io/Stacer-Web/
+![Screenshot](./dashboard.png)
 

@@ -57,5 +57,6 @@ https://github.com/aristocratos/bpytop<br><br>
 # ═════════════════════════════════
 ### *bleachbit — BleachBit system cleaner for Windows and Linux*
 https://github.com/bleachbit/bleachbit<br><br>
+![Screenshot](./bleachbit320_windows10_preview_700x467.webp)
 # ═════════════════════════════════
 

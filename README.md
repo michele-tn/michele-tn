@@ -54,12 +54,13 @@ https://explainshell.com/explain/1/tcptrack<br><br>
 # ═════════════════════════════════
 ### *bpytop — Linux/OSX/FreeBSD resource monitor*
 https://github.com/aristocratos/bpytop<br><br>
+![Screenshot](./Bpytop-Resource-Monitor.png)
 # ═════════════════════════════════
 ### *bleachbit — BleachBit system cleaner for Windows and Linux*
 https://github.com/bleachbit/bleachbit<br><br>
 ![Screenshot](./bleachbit320_windows10_preview_700x467.webp)
 # ═════════════════════════════════
 ### *Stacer — Linux System Optimizer & Monitoring*
-https://oguzhaninan.github.io/Stacer-Web/
+https://oguzhaninan.github.io/Stacer-Web/<br><br>
 ![Screenshot](./dashboard.png)
 

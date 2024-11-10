@@ -73,3 +73,7 @@ https://mobaxterm.mobatek.net/<br><br>
 https://etherape.sourceforge.io/<br><br>
 ![Screenshot](./v0.9.3.png)
 # ═════════════════════════════════
+### *WinSCP — WinSCP is a popular free SFTP and FTP client for Windows, a powerful file manager that will improve your productivity. It supports also Amazon S3, FTPS, SCP and WebDAV protocols, as well as copying between two local directories. Power users can automate WinSCP using .NET assembly.*
+https://github.com/winscp/winscp<br><br>
+![Screenshot](./1-dashboard.png)
+# ═════════════════════════════════

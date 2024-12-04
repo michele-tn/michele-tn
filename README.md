@@ -15,6 +15,13 @@ https://gist.github.com/michele-tn/9afa8a91582b238bfdb009954c98b7b2<br><br>
 https://github.com/webmin/webmin<br><br>
 ![Screenshot](./1-dashboard.png)
 # ═════════════════════════════════
+### *NtopNG — High-Speed Web-based Traffic Analysis and Flow Collection*
+##  *ntopng is a network traffic probe that provides 360° Network visibility, with its ability to gather traffic information from traffic mirrors, NetFlow exporters, SNMP devices, Firewall logs, Intrusion Detection systems.*
+https://www.ntop.org/<br>
+https://packages.ntop.org/apt/<br><br>
+![Screenshot](./NtopNG1.webp)
+![Screenshot](./NtopNG2.webp)
+# ═════════════════════════════════
 #### *Awesome-tunneling — List of ngrok/Cloudflare Tunnel alternatives and other tunneling software and services. Focus on self-hosting.*
 https://github.com/anderspitman/awesome-tunneling
 

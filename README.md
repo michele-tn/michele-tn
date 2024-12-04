@@ -16,7 +16,7 @@ https://github.com/webmin/webmin<br><br>
 ![Screenshot](./1-dashboard.png)
 # ═════════════════════════════════
 ### *NtopNG — High-Speed Web-based Traffic Analysis and Flow Collection*
-##  *ntopng is a network traffic probe that provides 360° Network visibility, with its ability to gather traffic information from traffic mirrors, NetFlow exporters, SNMP devices, Firewall logs, Intrusion Detection systems.*
+##  *NtopNG is a network traffic probe that provides 360° Network visibility, with its ability to gather traffic information from traffic mirrors, NetFlow exporters, SNMP devices, Firewall logs, Intrusion Detection systems.*
 https://www.ntop.org/<br>
 https://packages.ntop.org/apt/<br><br>
 ![Screenshot](./NtopNG1.webp)

@@ -7,8 +7,7 @@
 🔗 [github.com/michele-tn/V2RayN-PowerShellC0nf19 link](https://github.com/michele-tn/V2RayN-PowerShellC0nf19/blob/main/Download_V2RayN.ps1)<br><br>
 **(MULTIPLE TCP TUNNELING) Connecting and Loading SSH private keys automatically on plink**<br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/9afa8a91582b238bfdb009954c98b7b2)<br><br>
-**Creating a Resilient Process in C#**<br>
-🔗 [github link](https://github.com/michele-tn/C-_ResilientProcess/tree/main)<br><br>
+
 
                                ▂▃▅▇█▓▒░۞░▒▓█▇▅▃▂
 # '(◣_◢)' ●▬● **Favorite links** ●▬●▬●▬●

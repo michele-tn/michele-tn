@@ -12,9 +12,15 @@
                                ▂▃▅▇█▓▒░۞░▒▓█▇▅▃▂
 # '(◣_◢)' ●▬● **Favorite links** ●▬●▬●▬●
 
-#### *Webmin — Powerful and flexible web-based server management control panel*
+### *Webmin — Powerful and flexible web-based server management control panel*
 https://github.com/webmin/webmin<br><br>
 ![Screenshot](./1-dashboard.png)
+# ═════════════════════════════════
+### *Cockpit — Cockpit is a web-based graphical interface for servers, intended for everyone.*
+##### ***Cockpit is an intuitive, web-based interface designed to simplify the management of Linux servers. It provides users with real-time diagnostics, system monitoring, and administrative tools, enabling both beginners and experienced administrators to efficiently manage their systems. Cockpit supports tasks such as storage configuration, network setup, performance tracking, and more, all through a graphical interface accessible via a browser. Its modular design allows for extensibility, making it adaptable to diverse server environments.***
+https://cockpit-project.org/<br><br>
+![Screenshot](https://cockpit-project.org/images/screenshot/network-overview.webp)
+![Screenshot](https://cockpit-project.org/images/screenshot/overview-f33.webp)
 # ═════════════════════════════════
 ### *NtopNG — High-Speed Web-based Traffic Analysis and Flow Collection*
 ####  *_NtopNG is a network traffic probe that provides 360° Network visibility, with its ability to gather traffic information from traffic mirrors, NetFlow exporters, SNMP devices, Firewall logs, Intrusion Detection systems._*

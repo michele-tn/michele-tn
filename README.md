@@ -14,7 +14,7 @@
 🔗 [link GITHUB - /rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server)<br>
 ---
 **(SQL) WhereUsed Stored Procedure for SQL Server**<br>
-***This SQL script modifies the [dbo].[WhereUsed] stored procedure within the [MES_TST] database. The procedure is designed to analyze table relationships and dependencies by identifying where a specified column is used within various database objects, such as tables, views, stored procedures, and functions.***<br>
+***This SQL script modifies the [dbo].[WhereUsed] stored procedure within the [YOUR_DB] database. The procedure is designed to analyze table relationships and dependencies by identifying where a specified column is used within various database objects, such as tables, views, stored procedures, and functions.***<br>
 🔗 [link GITHUB - SQL WHERE USED](https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server)<br>
 ---
 <br><br>

@@ -24,11 +24,17 @@
 **(2dust/v2rayN) A GUI client for Windows, Linux and macOS, support Xray and sing-box and others** <br>
 🔗 [link GITHUB - v2rayN](https://github.com/2dust/v2rayN) <br><br>
 **(shadowsocks-libev) Installing and running shadowsocks on Ubuntu Server** <br>
-🔗 [link GITHUB - shadowsocks-libev](https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868)<br><br>
+🔗 [link GITHUB - shadowsocks-libev](https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868)
 ---
-**(SQL) WhereUsed Stored Procedure for SQL Server** <br>
-***This SQL script modifies the [dbo].[WhereUsed] stored procedure within the [YOUR_DB] database. The procedure is designed to analyze table relationships and dependencies by identifying where a specified column is used within various database objects, such as tables, views, stored procedures, and functions.***<br>
-🔗 [link GITHUB - SQL WHERE USED](https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server)<br>
+### **(SQL) WhereUsed Stored Procedure for SQL Server** <br>
+<pre>This  SQL  script  modifies  the [dbo].[WhereUsed]
+stored  procedure within  the [YOUR_DB]  database.
+The  procedure  is   designed  to  analyze   table
+relationships  and  dependencies  by   identifying
+where a  specified column  is used  within various
+database objects,  such as  tables, views,  stored
+procedures, and functions.</pre>
+🔗 [link GITHUB - SQL WHERE USED](https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server)
 ---
 <br><br>
                                ▂▃▅▇█▓▒░۞░▒▓█▇▅▃▂

@@ -3,7 +3,7 @@
 𝘾𝒐𝙢𝒑𝙪𝒕𝙚𝒓 𝒔𝙘𝒊𝙚𝒏𝙘𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝒖𝙩 𝙘𝒐𝙢𝒑𝙪𝒕𝙚𝒓𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝒚 𝒊𝙨 𝙖𝒃𝙤𝒖𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!<br/>~ 𝙀𝑫𝙎𝑮𝙀𝑹 𝑾𝙔𝑩𝙀 𝘿𝑰𝙅𝑲𝙎𝑻𝙍𝑨
 </H1>
 <br/><br/>
-<details>
+<blockquote><details>
   <summary> <B>(RUSTDESK SELF-HOSTED) Set Up Your Own RUSTDESK SELF-HOSTED Server</B> </summary>
   <blockquote>
 - 🔗 <a href="https://rustdesk.com/docs/it/self-host/">link RUSTDESK.COM - /self-host/</a><br/>
@@ -11,29 +11,29 @@
 - 🔗 <a href="https://github.com/techahold/rustdeskinstall">link GITHUB - techahold</a><br/>
 - 🔗 <a href="https://github.com/rustdesk/rustdesk-server">link GITHUB - /rustdesk/rustdesk-server</a>
   </blockquote>
-</details>
+</details></blockquote>
 
-**[C#] Downloads the latest version of RUSTDESK (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.** <br>
+- **[C#] Downloads the latest version of RUSTDESK (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/b8e9d018da0170c7f90db36adf56585e)<br><br>
-**[POWERSHELL SCRIPT] Downloads the latest version of RUSTDESK (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.** <br>
+- **[POWERSHELL SCRIPT] Downloads the latest version of RUSTDESK (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/0d2cd5c0196a711dcfc127ada6af9559)<br><br>
-**(MULTIPLE TCP TUNNELING) Connecting and Loading SSH private keys automatically on plink** <br>
+- **(MULTIPLE TCP TUNNELING) Connecting and Loading SSH private keys automatically on plink** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/9afa8a91582b238bfdb009954c98b7b2)<br><br>
-**[POWERSHELL SCRIPT] V2RayN — Checks the release version, downloads it, configures it in English and runs it.** <br>
+- **[POWERSHELL SCRIPT] V2RayN — Checks the release version, downloads it, configures it in English and runs it.** <br>
 🔗 [Link ps code](https://github.com/michele-tn/V2RayN-PowerShellC0nf19/blob/main/Download_V2RayN.ps1)<br><br>
-**(2dust/v2rayN) A GUI client for Windows, Linux and macOS, support Xray and sing-box and others** <br>
+- **(2dust/v2rayN) A GUI client for Windows, Linux and macOS, support Xray and sing-box and others** <br>
 🔗 [link GITHUB - v2rayN](https://github.com/2dust/v2rayN) <br><br>
-**(shadowsocks-libev) Installing and running shadowsocks on Ubuntu Server** <br>
+- **(shadowsocks-libev) Installing and running shadowsocks on Ubuntu Server** <br>
 🔗 [link GITHUB - shadowsocks-libev](https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868)
 ---
-### **(SQL) WhereUsed Stored Procedure for SQL Server** <br>
-<pre>This  SQL  script  modifies  the [dbo].[WhereUsed]
+- ### **(SQL) WhereUsed Stored Procedure for SQL Server** <br>
+<blockquote><blockquote><pre>This  SQL  script  modifies  the [dbo].[WhereUsed]
 stored  procedure within  the [YOUR_DB]  database.
 The  procedure  is   designed  to  analyze   table
 relationships  and  dependencies  by   identifying
 where a  specified column  is used  within various
 database objects,  such as  tables, views,  stored
-procedures, and functions.</pre>
+procedures, and functions.</pre></blockquote></blockquote>
 🔗 [link GITHUB - SQL WHERE USED](https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server)
 ---
 <br><br>

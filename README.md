@@ -24,7 +24,7 @@
 - **(2dust/v2rayN) A GUI client for Windows, Linux and macOS, support Xray and sing-box and others** <br>
 🔗 [link GITHUB - v2rayN](https://github.com/2dust/v2rayN) <br><br>
 - **(shadowsocks-libev) Installing and running shadowsocks on Ubuntu Server** <br>
-🔗 [link GITHUB - shadowsocks-libev](https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868)
+🔗 <a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">link GITHUB - shadowsocks-libev</a><br/>
 ---
 - ### **(SQL) WhereUsed Stored Procedure for SQL Server** <br>
 <blockquote><blockquote><pre>This  SQL  script  modifies  the [dbo].[WhereUsed]
@@ -34,11 +34,12 @@ relationships  and  dependencies  by   identifying
 where a  specified column  is used  within various
 database objects,  such as  tables, views,  stored
 procedures, and functions.</pre></blockquote></blockquote>
-🔗 [link GITHUB - SQL WHERE USED](https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server)
+🔗 <a href="https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server">link GITHUB - SQL WHERE USED</a><br/>
+
 ---
-<br><br>
-                               ▂▃▅▇█▓▒░۞░▒▓█▇▅▃▂
-# '(◣_◢)' ●▬● **Favorite links** ●▬●▬●▬●
+
+<H1 align="center">▂▃▅▇█▓▒░۞░▒▓█▇▅▃▂</H1>
+<H1 align="center">'(◣_◢)' ●▬● **Favorite links** ●▬●▬●▬●</H1>
 
 ### *Webmin — Powerful and flexible web-based server management control panel*
 https://github.com/webmin/webmin<br><br>

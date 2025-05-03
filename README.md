@@ -40,9 +40,8 @@ footprint   (several   megabytes)    for
 thousands of  connections. This  port is
 maintained by <a href="https://github.com/madeye">@madeye.</a>
 </pre>
-- 🔗 <b><a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">(shadowsocks-libev) Installing Self-Hosted Shadowsocks Server</a></b><br/><br/>
-  <blockquote># 🚀 Self-Hosted Shadowsocks Server: Advantages
-Using a **self-hosted Shadowsocks server configuration** offers numerous advantages over public proxy servers. Below is a detailed breakdown of its benefits:
+- 🔗 <b><a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">(shadowsocks-libev) Installing Self-Hosted Shadowsocks Server</a></b><br/><blockquote> <h2>🚀 Self-Hosted Shadowsocks Server: Advantages</h2>
+Using a 𝐬𝐞𝐥𝐟-𝐡𝐨𝐬𝐭𝐞𝐝 𝐒𝐡𝐚𝐝𝐨𝐰𝐬𝐨𝐜𝐤𝐬 𝐬𝐞𝐫𝐯𝐞𝐫 𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 offers numerous advantages over public proxy servers. Below is a detailed breakdown of its benefits:
 
 ## 🛡️ Enhanced Privacy & Security
 - **Advanced Encryption**: Your traffic is encrypted, protecting data from interception and censorship.

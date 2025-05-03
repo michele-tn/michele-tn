@@ -31,7 +31,7 @@
 <pre>Bug-fix-only libev port of  shadowsocks.
 Future development moved to shadowsocks-
 rust</pre>
-    - 🔗 <a href="https://shadowsocks.org/doc/deploying.html#c-with-libev">link shadowsocks - C with libev</a><br/>
+    - 🔗 <a href="https://shadowsocks.org/doc/deploying.html#c-with-libev">Shadowsocks - C with libev</a><br/>
 <pre>shadowsocks-libev is  a lightweight  and
 full featured port for embedded  devices
 and  low  end  boxes.  It's  a  pure   C

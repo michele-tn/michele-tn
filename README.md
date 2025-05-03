@@ -40,7 +40,37 @@ footprint   (several   megabytes)    for
 thousands of  connections. This  port is
 maintained by <a href="https://github.com/madeye">@madeye.</a>
 </pre>
-- 🔗 <b><a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">(shadowsocks-libev) Installing and running shadowsocks on Ubuntu Server</a></b><br/>
+- 🔗 <b><a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">(shadowsocks-libev) Installing Self-Hosted Shadowsocks Server</a></b><br/><br/>
+  <blockquote># 🚀 Self-Hosted Shadowsocks Server: Advantages
+Using a **self-hosted Shadowsocks server configuration** offers numerous advantages over public proxy servers. Below is a detailed breakdown of its benefits:
+
+## 🛡️ Enhanced Privacy & Security
+- **Advanced Encryption**: Your traffic is encrypted, protecting data from interception and censorship.
+- **Full Control**: No reliance on third-party services, reducing the risk of logging and surveillance.
+- **No Logging**: Configure the server to prevent storing any user activity, unlike public proxies.
+
+## 🚀 Optimized Performance
+- **Dedicated Bandwidth**: Eliminates traffic congestion found in shared proxy services.
+- **Faster Speeds**: Stable and unrestricted connections.
+- **Low Latency**: Host the server near your location for quicker response times.
+
+## 🔄 Complete Customization
+- **Tailored Configuration**: Adjust protocols, ports, and security settings to fit your needs.
+- **User Management**: Control access to prevent unauthorized usage.
+- **Multi-Device Compatibility**: Integrate with VPNs, routers, and various operating systems.
+
+## 🎭 Circumventing Restrictions
+- **Bypass Geoblocking**: Access restricted content and services worldwide.
+- **Evade Censorship**: Shadowsocks effectively bypasses national and corporate firewalls.
+- **Stealth Mode**: Harder to detect compared to standard proxies or VPNs.
+
+## 💰 Cost Efficiency & Sustainability
+- **No Subscription Fees**: Eliminates recurring costs of paid proxy services.
+- **Scalability**: Expand your server's capacity as needed.
+- **Total Independence**: Avoid policies and sudden restrictions imposed by third-party providers.
+
+Setting up a self-hosted Shadowsocks server is an investment in security, privacy, and long-term flexibility.</blockquote>
+    
   </blockquote>
 </details></blockquote>
 

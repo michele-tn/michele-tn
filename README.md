@@ -23,8 +23,26 @@
 🔗 [Link ps code](https://github.com/michele-tn/V2RayN-PowerShellC0nf19/blob/main/Download_V2RayN.ps1)<br><br>
 - **(2dust/v2rayN) A GUI client for Windows, Linux and macOS, support Xray and sing-box and others** <br>
 🔗 [link GITHUB - v2rayN](https://github.com/2dust/v2rayN) <br><br>
-- **(shadowsocks-libev) Installing and running shadowsocks on Ubuntu Server** <br>
-🔗 <a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">link GITHUB - shadowsocks-libev</a><br/>
+<blockquote><details>
+  <summary> <B>shadowsocks / shadowsocks-libev</B> </summary>
+  <blockquote>
+- 🔗 <a href="https://github.com/shadowsocks/shadowsocks-libev">link shadowsocks-libev FORK</a><br/>
+<pre>Bug-fix-only libev port of  shadowsocks.
+Future development moved to shadowsocks-
+rust</pre>
+    - 🔗 <a href="https://shadowsocks.org/doc/deploying.html#c-with-libev">link shadowsocks - C with libev</a><br/>
+<pre>shadowsocks-libev is  a lightweight  and
+full featured port for embedded  devices
+and  low  end  boxes.  It's  a  pure   C
+implementation  and  has  a  very  small
+footprint   (several   megabytes)    for
+thousands of  connections. This  port is
+maintained by @madeye.
+</pre>
+- 🔗 <b><a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">(shadowsocks-libev) Installing and running shadowsocks on Ubuntu Server</a></b><br/>
+  </blockquote>
+</details></blockquote>
+
 ---
 - ### **(SQL) WhereUsed Stored Procedure for SQL Server** <br>
 <blockquote><blockquote><pre>This  SQL  script  modifies  the [dbo].[WhereUsed]

@@ -7,10 +7,10 @@
 <blockquote><details>
   <summary> <B>(RUSTDESK SELF-HOSTED) Set Up Your Own RUSTDESK SELF-HOSTED Server</B> </summary>
   <blockquote>
-- 🔗 <a href="https://rustdesk.com/docs/it/self-host/">link RUSTDESK.COM - /self-host/</a><br/>
-- 🔗 <a href="https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/install/">link RUSTDESK.COM - /rustdesk-server-oss/install</a><br/>
-- 🔗 <a href="https://github.com/techahold/rustdeskinstall">link GITHUB - techahold</a><br/>
-- 🔗 <a href="https://github.com/rustdesk/rustdesk-server">link GITHUB - /rustdesk/rustdesk-server</a>
+➤ 🔗 <a href="https://rustdesk.com/docs/it/self-host/">link RUSTDESK.COM - /self-host/</a><br/>
+➤ 🔗 <a href="https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/install/">link RUSTDESK.COM - /rustdesk-server-oss/install</a><br/>
+➤ 🔗 <a href="https://github.com/techahold/rustdeskinstall">link GITHUB - techahold</a><br/>
+➤ 🔗 <a href="https://github.com/rustdesk/rustdesk-server">link GITHUB - /rustdesk/rustdesk-server</a>
   </blockquote>
 </details></blockquote>
 
@@ -27,11 +27,11 @@
 <blockquote><details>
   <summary> <B>shadowsocks / shadowsocks-libev</B> </summary>
   <blockquote>
-- 🔗 <a href="https://github.com/shadowsocks/shadowsocks-libev">link shadowsocks-libev FORK</a><br/>
+➤ 🔗 <a href="https://github.com/shadowsocks/shadowsocks-libev">link shadowsocks-libev FORK</a><br/>
 <pre>Bug-fix-only libev port of  shadowsocks.
 Future development moved to shadowsocks-
 rust</pre>
-    - 🔗 <a href="https://shadowsocks.org/doc/deploying.html#c-with-libev">Shadowsocks - C with libev</a><br/>
+    ➤ 🔗 <a href="https://shadowsocks.org/doc/deploying.html#c-with-libev">Shadowsocks - C with libev</a><br/>
 <pre>shadowsocks-libev is  a lightweight  and
 full featured port for embedded  devices
 and  low  end  boxes.  It's  a  pure   C
@@ -40,7 +40,7 @@ footprint   (several   megabytes)    for
 thousands of  connections. This  port is
 maintained by <a href="https://github.com/madeye">@madeye.</a>
 </pre>
-- 🔗 <b><a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">(shadowsocks-libev) Installing Self-Hosted Shadowsocks Server</a></b><br/><blockquote> <h2>🚀 Self-Hosted Shadowsocks Server: Advantages</h2>
+➤ 🔗 <b><a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">(shadowsocks-libev) Installing Self-Hosted Shadowsocks Server</a></b><br/><blockquote> <h2>🚀 Self-Hosted Shadowsocks Server: Advantages</h2>
 Using a 𝐬𝐞𝐥𝐟-𝐡𝐨𝐬𝐭𝐞𝐝 𝐒𝐡𝐚𝐝𝐨𝐰𝐬𝐨𝐜𝐤𝐬 𝐬𝐞𝐫𝐯𝐞𝐫 𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 offers numerous advantages over public proxy servers. Below is a detailed breakdown of its benefits:
 
 ## 🛡️ Enhanced Privacy & Security
@@ -82,7 +82,7 @@ relationships  and  dependencies  by   identifying
 where a  specified column  is used  within various
 database objects,  such as  tables, views,  stored
 procedures, and functions.</pre>
-🔗 <a href="https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server">link GITHUB - SQL WHERE USED</a><br/></blockquote></blockquote>
+➤ 🔗 <a href="https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server">link GITHUB - SQL WHERE USED</a><br/></blockquote></blockquote>
 
 ---
 

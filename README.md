@@ -37,7 +37,7 @@ and  low  end  boxes.  It's  a  pure   C
 implementation  and  has  a  very  small
 footprint   (several   megabytes)    for
 thousands of  connections. This  port is
-maintained by @madeye.
+maintained by <a href="https://github.com/madeye">@madeye.</a>
 </pre>
 - 🔗 <b><a href="https://gist.github.com/zhiguangwang/7018fbc0a38a5b663868">(shadowsocks-libev) Installing and running shadowsocks on Ubuntu Server</a></b><br/>
   </blockquote>

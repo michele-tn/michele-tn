@@ -86,6 +86,9 @@ procedures, and functions.</pre>
 
 ---
 
+- **(gpedit.msc) Enable Group Policy Editor in Windows 11 Home edition** <br>
+🔗 [gist.github link](https://gist.github.com/michele-tn/af9490e2ab9829ccf0a6b254c89686fc)<br/><br/><br/>
+
 <H1 align="center">▂▃▅▇█▓▒░۞░▒▓█▇▅▃▂</H1>
 <H1 align="center">'(◣_◢)' ●▬● **Favorite links** ●▬●▬●▬●</H1>
 

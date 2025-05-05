@@ -88,7 +88,7 @@ procedures, and functions.</pre>
 
 - **(gpedit.msc) Enable Group Policy Editor in Windows 11 Home edition** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/af9490e2ab9829ccf0a6b254c89686fc)<br/>
-- **(UAC DISABLER/ENABLER) How to force the User Account Control (UAC) yes/no dialog window** <br>
+- **(UAC DISABLER/ENABLER) How do I turn off the User Account Control (UAC) dialog in Windows?** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/b0bcf890cd4f5acf3ec03d07c0de735b)<br/>
 <br/><br/>
 

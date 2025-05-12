@@ -92,7 +92,7 @@ relationships  and  dependencies  by   identifying
 where a  specified column  is used  within various
 database objects,  such as  tables, views,  stored
 procedures, and functions.</pre>
-➤ 🔗 <a href="https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server">link GITHUB - SQL WHERE USED</a><br/></blockquote></blockquote>
+➢ 🔗 <a href="https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server">link GITHUB - SQL WHERE USED</a><br/></blockquote></blockquote>
 
 ---
 ---

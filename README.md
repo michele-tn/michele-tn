@@ -11,33 +11,11 @@
 
 [![Gist 2](https://img.shields.io/badge/Gist%20%232-𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌%20%20𝑹𝙚𝒎𝙤𝒕𝙚%20𝘾𝒂𝙥𝒕𝙪𝒓𝙞𝒏𝙜!-blueviolet?style=for-the-badge)](https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051)
 
-
 <!--
 - **𝑺𝑺𝑯 𝑻𝒖𝒏𝒏𝒆𝒍𝒔 𝑨𝑺𝑪𝑰𝑰 𝒅𝒊𝒂𝒈𝒓𝒂𝒎𝒔** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7)<br>
 - **[SSH!] 𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌 𝑻𝙘𝒑𝙙𝒖𝙢𝒑 𝑹𝙚𝒎𝙤𝒕𝙚 𝘾𝒂𝙥𝒕𝙪𝒓𝙞𝒏𝙜!** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051) -->
-<br><br>
-<blockquote><details>
-  <summary> <B>(RUSTDESK SELF-HOSTED) Set Up Your Own RUSTDESK SELF-HOSTED Server</B> </summary>
-  <blockquote>
-➤ 🔗 <a href="https://rustdesk.com/docs/it/self-host/">link RUSTDESK.COM - /self-host/</a><br/>
-➤ 🔗 <a href="https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/install/">link RUSTDESK.COM - /rustdesk-server-oss/install</a><br/>
-➤ 🔗 <a href="https://github.com/techahold/rustdeskinstall">link GITHUB - techahold</a><br/>
-➤ 🔗 <a href="https://github.com/rustdesk/rustdesk-server">link GITHUB - /rustdesk/rustdesk-server</a>
-  </blockquote>
-</details></blockquote>
-
-- **[C#] Downloads the latest version of RUSTDESK (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.** <br>
-🔗 [gist.github link](https://gist.github.com/michele-tn/b8e9d018da0170c7f90db36adf56585e)<br><br>
-- **[POWERSHELL SCRIPT] Downloads the latest version of RUSTDESK (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.** <br>
-🔗 [gist.github link](https://gist.github.com/michele-tn/0d2cd5c0196a711dcfc127ada6af9559)<br><br>
-- **(MULTIPLE TCP TUNNELING) Connecting and Loading SSH private keys automatically on plink** <br>
-🔗 [gist.github link](https://gist.github.com/michele-tn/9afa8a91582b238bfdb009954c98b7b2)<br><br>
-- **[POWERSHELL SCRIPT] V2RayN — Checks the release version, downloads it, configures it in English and runs it.** <br>
-🔗 [Link ps code](https://github.com/michele-tn/V2RayN-PowerShellC0nf19/blob/main/Download_V2RayN.ps1)<br><br>
-- **(2dust/v2rayN) A GUI client for Windows, Linux and macOS, support Xray and sing-box and others** <br>
-🔗 [link GITHUB - v2rayN](https://github.com/2dust/v2rayN) <br><br>
 
 ---
 ---
@@ -90,6 +68,33 @@ Setting up a self-hosted Shadowsocks server is an investment in security, privac
     
   </blockquote>
 </details></blockquote>
+
+---
+---
+
+<blockquote><details>
+  <summary> <B>(RUSTDESK SELF-HOSTED) Set Up Your Own RUSTDESK SELF-HOSTED Server</B> </summary>
+  <blockquote>
+➤ 🔗 <a href="https://rustdesk.com/docs/it/self-host/">link RUSTDESK.COM - /self-host/</a><br/>
+➤ 🔗 <a href="https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/install/">link RUSTDESK.COM - /rustdesk-server-oss/install</a><br/>
+➤ 🔗 <a href="https://github.com/techahold/rustdeskinstall">link GITHUB - techahold</a><br/>
+➤ 🔗 <a href="https://github.com/rustdesk/rustdesk-server">link GITHUB - /rustdesk/rustdesk-server</a>
+  </blockquote>
+</details></blockquote>
+
+---
+---
+
+- **[C#] Downloads the latest version of RUSTDESK (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.** <br>
+🔗 [gist.github link](https://gist.github.com/michele-tn/b8e9d018da0170c7f90db36adf56585e)<br><br>
+- **[POWERSHELL SCRIPT] Downloads the latest version of RUSTDESK (Nightly or Latest) using the GitHub API web service, configures application by setting the IP and keys of your self-hosted server.** <br>
+🔗 [gist.github link](https://gist.github.com/michele-tn/0d2cd5c0196a711dcfc127ada6af9559)<br><br>
+- **(MULTIPLE TCP TUNNELING) Connecting and Loading SSH private keys automatically on plink** <br>
+🔗 [gist.github link](https://gist.github.com/michele-tn/9afa8a91582b238bfdb009954c98b7b2)<br><br>
+- **[POWERSHELL SCRIPT] V2RayN — Checks the release version, downloads it, configures it in English and runs it.** <br>
+🔗 [Link ps code](https://github.com/michele-tn/V2RayN-PowerShellC0nf19/blob/main/Download_V2RayN.ps1)<br><br>
+- **(2dust/v2rayN) A GUI client for Windows, Linux and macOS, support Xray and sing-box and others** <br>
+🔗 [link GITHUB - v2rayN](https://github.com/2dust/v2rayN) <br><br>
 
 ---
 ---

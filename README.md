@@ -4,13 +4,22 @@
   <img src="./03052025.gif" width="50%" height: auto>
 </H1>
 
-
 ## Useful Gists
+<div style="display: flex; flex-direction: row; gap: 40px; align-items: center; justify-content: center;">
+  <a href="https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7" target="_blank">
+    <img 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-SSH%20TUNNELS-blue?style=for-the-badge" 
+      alt="𝙂𝑰𝙎𝑻" 
+      style="transform: scale(2); transform-origin: left; height: auto;">
+  </a>
 
-[![𝙂𝑰𝙎𝑻](https://img.shields.io/badge/𝙂𝑰𝙎𝑻-SSH%20TUNNELS-blue?style=for-the-badge)](https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7)
-
-[![𝙂𝑰𝙎𝑻](https://img.shields.io/badge/𝙂𝑰𝙎𝑻-𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌%20%20𝑹𝙚𝒎𝙤𝒕𝙚%20𝘾𝒂𝙥𝒕𝙪𝒓𝙞𝒏𝙜!-blueviolet?style=for-the-badge)](https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051)
-
+  <a href="https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051" target="_blank">
+    <img 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌%20%20𝑹𝙚𝒎𝙤𝒕𝙚%20𝘾𝒂𝙥𝒕𝙪𝒓𝙞𝒏𝙜!-blueviolet?style=for-the-badge" 
+      alt="𝙂𝑰𝙎𝑻" 
+      style="transform: scale(2); transform-origin: left; height: auto;" >
+  </a>
+</div>
 <!--
 - **𝑺𝑺𝑯 𝑻𝒖𝒏𝒏𝒆𝒍𝒔 𝑨𝑺𝑪𝑰𝑰 𝒅𝒊𝒂𝒈𝒓𝒂𝒎𝒔** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7)<br>

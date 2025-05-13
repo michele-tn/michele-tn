@@ -7,9 +7,9 @@
 
 ## Useful Gists
 
-[![Gist 1](https://img.shields.io/badge/Gist%20%231-SSH%20TUNNELS-blue?style=for-the-badge)](https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7)
+[![𝙂𝑰𝙎𝑻](https://img.shields.io/badge/𝙂𝑰𝙎𝑻-SSH%20TUNNELS-blue?style=for-the-badge)](https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7)
 
-[![Gist 2](https://img.shields.io/badge/Gist%20%232-𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌%20%20𝑹𝙚𝒎𝙤𝒕𝙚%20𝘾𝒂𝙥𝒕𝙪𝒓𝙞𝒏𝙜!-blueviolet?style=for-the-badge)](https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051)
+[![𝙂𝑰𝙎𝑻](https://img.shields.io/badge/𝙂𝑰𝙎𝑻-𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌%20%20𝑹𝙚𝒎𝙤𝒕𝙚%20𝘾𝒂𝙥𝒕𝙪𝒓𝙞𝒏𝙜!-blueviolet?style=for-the-badge)](https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051)
 
 <!--
 - **𝑺𝑺𝑯 𝑻𝒖𝒏𝒏𝒆𝒍𝒔 𝑨𝑺𝑪𝑰𝑰 𝒅𝒊𝒂𝒈𝒓𝒂𝒎𝒔** <br>

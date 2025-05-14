@@ -21,7 +21,7 @@
   </a>
 </div>
 
-### 🔥 RegEX !!!!
+### 🔥 Useful RegEX HowTo !!!!
 <table>
   <tr>
     <td>

@@ -4,7 +4,7 @@
   <img src="./03052025.gif" width="50%" height: auto>
 </H1>
 
-## Useful Gists
+### 🔥 Useful Gists
 <div style="display: flex; flex-direction: row; gap: 40px; align-items: center; justify-content: center;">
   <a href="https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7" target="_blank">
     <img 
@@ -20,6 +20,29 @@
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a>
 </div>
+
+### 🔥 RegEX !!!!
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/ziishaned/learn-regex">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ziishaned&repo=learn-regex&theme=tokyonight">
+      </a>
+    </td>
+    <td>
+      <a href="https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html">
+        <img src="https://img.shields.io/badge/NTU%20Regex%20Guide-Reference-blueviolet?style=for-the-badge&logo=readthedocs">
+      </a>
+      <br><br>
+      <a href="https://www.regular-expressions.info/refflavors.html">
+        <img src="https://img.shields.io/badge/Regular%20Expressions%20info-Reference-critical?style=for-the-badge&logo=bookstack">
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
 <!--
 - **𝑺𝑺𝑯 𝑻𝒖𝒏𝒏𝒆𝒍𝒔 𝑨𝑺𝑪𝑰𝑰 𝒅𝒊𝒂𝒈𝒓𝒂𝒎𝒔** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7)<br>

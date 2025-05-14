@@ -41,6 +41,12 @@
   </tr>
 </table>
 
+| **Resource**                                           | **Link**                                                                                                                              |
+|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| *Mastering Regular Expressions* – O'Reilly (PDF)       | [Download PDF](https://dl.ebooksworld.ir/motoman/OReilly.Mastering.Regular.Expressions.3rd.Edition.www.EBooksWorld.ir.pdf)           |
+| Advanced RegEx Guide – RexEgg                          | [Visit Website](https://www.rexegg.com/)                                                                                              |
+| *Regular Expressions Cookbook* (Official site)         | [Visit Website](https://www.regular-expressions-cookbook.com/)                                                                       |
+| RegEx Comparison Across Languages (PDF)                | [Download PDF](https://www.geos.ed.ac.uk/~bmg/software/Perl%20Books/RegExp_perl_python_java_etc.pdf)                                 |
 
 
 <!--

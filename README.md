@@ -43,10 +43,10 @@
 
 | **Resource**                                           | **Link**                                                                                                                              |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| *Mastering Regular Expressions* – O'Reilly (PDF)       | [Download PDF](https://dl.ebooksworld.ir/motoman/OReilly.Mastering.Regular.Expressions.3rd.Edition.www.EBooksWorld.ir.pdf)           |
+| *Mastering Regular Expressions* – O'Reilly (PDF)       | [Download PDF](https://www.google.com/search?q=intitle%3A%22index+of%22+%22OReilly.Mastering.Regular.Expressions.3rd.Edition.www.EBooksWorld.ir.pdf%22&oq=intitle%3A%22index+of%22+%22OReilly.Mastering.Regular.Expressions.3rd.Edition.www.EBooksWorld.ir.pdf%22&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEIMTM4MWowajmoAgCwAgA&sourceid=chrome&ie=UTF-8)                         |
 | Advanced RegEx Guide – RexEgg                          | [Visit Website](https://www.rexegg.com/)                                                                                              |
-| *Regular Expressions Cookbook* (Official site)         | [Visit Website](https://www.regular-expressions-cookbook.com/)                                                                       |
-| RegEx Comparison Across Languages (PDF)                | [Download PDF](https://www.geos.ed.ac.uk/~bmg/software/Perl%20Books/RegExp_perl_python_java_etc.pdf)                                 |
+| *Regular Expressions Cookbook* (Official site)         | [Visit Website](https://www.regular-expressions-cookbook.com/)                                                                        |
+| RegEx Comparison Across Languages (PDF)                | [Download PDF](https://www.google.com/search?q=%22RegExp_perl_python_java_etc%22+filetype%3Apdf&oq=%22RegExp_perl_python_java_etc%22+filetype%3Apdf&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzczN2owajmoAgCwAgE&sourceid=chrome&ie=UTF-8)                                                                  |
 
 
 <!--

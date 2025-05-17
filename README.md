@@ -57,6 +57,15 @@
 | RegEx Comparison Across Languages (PDF)                | [Download PDF](https://www.google.com/search?q=%22RegExp_perl_python_java_etc%22+filetype%3Apdf&oq=%22RegExp_perl_python_java_etc%22+filetype%3Apdf&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzczN2owajmoAgCwAgE&sourceid=chrome&ie=UTF-8)                                                                  |
 
 
+### 🔥 Backup and Restore GRUB Configuration to Prevent Boot Issues
+<a href="https://gist.github.com/michele-tn/306de7684deac6aa2dd5719707cc0041" target="_blank">
+  <img 
+    src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-GRUB%20Backup%20%26%20Restore-blue?style=for-the-badge" 
+    alt="𝙂𝑰𝙎𝑻" 
+    style="transform: scale(2); transform-origin: left; height: auto;">
+</a>
+
+
 <!--
 - **𝑺𝑺𝑯 𝑻𝒖𝒏𝒏𝒆𝒍𝒔 𝑨𝑺𝑪𝑰𝑰 𝒅𝒊𝒂𝒈𝒓𝒂𝒎𝒔** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7)<br>

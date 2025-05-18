@@ -65,6 +65,13 @@
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a>
 
+### 🔥 Windows 11 - Restore Classic Context Menu
+<a href="https://gist.github.com/michele-tn/c7d37a8cd1429cf8cb7cb44e8f9f0521" target="_blank">
+  <img 
+    src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Windows%2011%20Restore%20Classic%20Context%20Menu-blue?style=for-the-badge" 
+    alt="𝙂𝑰𝙎𝑻" 
+    style="transform: scale(2); transform-origin: left; height: auto;">
+</a>
 
 <!--
 - **𝑺𝑺𝑯 𝑻𝒖𝒏𝒏𝒆𝒍𝒔 𝑨𝑺𝑪𝑰𝑰 𝒅𝒊𝒂𝒈𝒓𝒂𝒎𝒔** <br>

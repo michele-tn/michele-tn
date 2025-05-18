@@ -22,7 +22,7 @@
 
   <a href="https://gist.github.com/michele-tn/72e98318c1994baec01c6247510ccdb9" target="_blank">
     <img 
-      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Google%20Dorking%3A%20Hacking%20with%20Google!-blueviolet?style=for-the-badge" 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Google%20Dorking%3A%20Hacking%20with%20Google!-orange?style=for-the-badge" 
       alt="𝙂𝑰𝙎𝑻" 
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a>
@@ -69,6 +69,14 @@
 <a href="https://gist.github.com/michele-tn/c7d37a8cd1429cf8cb7cb44e8f9f0521" target="_blank">
   <img 
     src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Windows%2011%20Restore%20Classic%20Context%20Menu-blue?style=for-the-badge" 
+    alt="𝙂𝑰𝙎𝑻" 
+    style="transform: scale(2); transform-origin: left; height: auto;">
+</a>
+
+### 🔥 Set Up a #ZeroTier Network on #OpenWRT Router
+<a href="https://gist.github.com/michele-tn/423d1ac079afcf20b6bec32043d25414" target="_blank">
+  <img 
+    src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Set%20Up%20ZeroTier%20on%20OpenWRT-orange?style=for-the-badge" 
     alt="𝙂𝑰𝙎𝑻" 
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a>

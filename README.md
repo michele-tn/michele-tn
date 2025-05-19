@@ -87,9 +87,27 @@
 - **[SSH!] 𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌 𝑻𝙘𝒑𝙙𝒖𝙢𝒑 𝑹𝙚𝒎𝙤𝒕𝙚 𝘾𝒂𝙥𝒕𝙪𝒓𝙞𝒏𝙜!** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051) -->
 
+
+- ### **(SQL) WhereUsed Stored Procedure for SQL Server** <br>
+<blockquote><blockquote><pre>This  SQL  script  modifies  the [dbo].[WhereUsed]
+stored  procedure within  the [YOUR_DB]  database.
+The  procedure  is   designed  to  analyze   table
+relationships  and  dependencies  by   identifying
+where a  specified column  is used  within various
+database objects,  such as  tables, views,  stored
+procedures, and functions.</pre>
+➢ 🔗 <a href="https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server">link GITHUB - SQL WHERE USED</a><br/></blockquote></blockquote>
+
 ---
 ---
 
+- **(gpedit.msc) Enable Group Policy Editor in Windows 11 Home edition** <br>
+🔗 [gist.github link](https://gist.github.com/michele-tn/af9490e2ab9829ccf0a6b254c89686fc)<br/>
+- **(UAC DISABLER/ENABLER) How do I turn off the User Account Control (UAC) dialog in Windows?** <br>
+🔗 [gist.github link](https://gist.github.com/michele-tn/b0bcf890cd4f5acf3ec03d07c0de735b)<br/>
+
+---
+---
 <blockquote><details>
   <summary> <B>shadowsocks / shadowsocks-libev</B> </summary>
   <blockquote>
@@ -168,25 +186,6 @@ Setting up a self-hosted Shadowsocks server is an investment in security, privac
 
 ---
 ---
-
-- ### **(SQL) WhereUsed Stored Procedure for SQL Server** <br>
-<blockquote><blockquote><pre>This  SQL  script  modifies  the [dbo].[WhereUsed]
-stored  procedure within  the [YOUR_DB]  database.
-The  procedure  is   designed  to  analyze   table
-relationships  and  dependencies  by   identifying
-where a  specified column  is used  within various
-database objects,  such as  tables, views,  stored
-procedures, and functions.</pre>
-➢ 🔗 <a href="https://github.com/michele-tn/WhereUsed-Stored-Procedure-for-SQL-Server">link GITHUB - SQL WHERE USED</a><br/></blockquote></blockquote>
-
----
----
-
-- **(gpedit.msc) Enable Group Policy Editor in Windows 11 Home edition** <br>
-🔗 [gist.github link](https://gist.github.com/michele-tn/af9490e2ab9829ccf0a6b254c89686fc)<br/>
-- **(UAC DISABLER/ENABLER) How do I turn off the User Account Control (UAC) dialog in Windows?** <br>
-🔗 [gist.github link](https://gist.github.com/michele-tn/b0bcf890cd4f5acf3ec03d07c0de735b)<br/>
-<br/><br/>
 
 <H1 align="center">▂▃▅▇█▓▒░۞░▒▓█▇▅▃▂</H1>
 <H1 align="center">'(◣_◢)' ●▬● **Favorite links** ●▬●▬●▬●</H1>

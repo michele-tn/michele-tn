@@ -80,9 +80,14 @@ Not aware of the View or ViewModel.
       <a href="https://www.youtube.com/playlist?list=PL0qAPtx8YtJe3WjjoRaB28ZGlX9heBqn3">
         <img src="https://img.shields.io/badge/Watch%20MVVM%20on%20YouTube-Video-red?style=for-the-badge&logo=youtube">
       </a>
+      <br><br>
+      <a href="https://www.google.com/search?q=intext%3ADesign+Patterns%3A+Elements+of+Reusable+Object-Oriented+Software+%2Bfiletype%3Apdf">
+        <img src="https://img.shields.io/badge/Search%20Design%20Patterns%20PDFs-Google-lightgrey?style=for-the-badge&logo=google">
+      </a>
     </td>
   </tr>
 </table>
+
 
 
 ---

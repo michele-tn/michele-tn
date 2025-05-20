@@ -29,6 +29,33 @@
 
 </div>
 
+---
+---
+
+
+### 🔥 MVVM (Model-View-ViewModel) design pattern !!!!
+<table>
+  <tr>
+    <td>
+      <a href="https://giobel.github.io/MVVM/">
+        <img src="https://img.shields.io/badge/Giobel%20MVVM%20Guide-Web-blue?style=for-the-badge&logo=html5">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/codingfreak/blogsamples/tree/master/MvvmSample">
+        <img src="https://img.shields.io/badge/CodingFreak%20MVVM%20Sample-Project-critical?style=for-the-badge&logo=github">
+      </a>
+      <br><br>
+      <a href="https://github.com/Savelenko/functional-mvvm">
+        <img src="https://img.shields.io/badge/Functional%20MVVM%20by%20Savelenko-Project-critical?style=for-the-badge&logo=github">
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+---
+
 ### 🔥 Useful RegEX How-Tos !!!!
 <table>
   <tr>

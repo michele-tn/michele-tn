@@ -34,6 +34,33 @@
 
 
 ### 🔥 MVVM (Model-View-ViewModel) design pattern !!!!
+The MVVM (Model-View-ViewModel) design pattern is a software architectural pattern commonly used in building user interfaces, especially in desktop and mobile applications. It helps separate the development of the graphical user interface (UI) from the business logic or backend logic.
+```sql
++-------------+       +----------------+       +--------+
+|   View      | <---> |  ViewModel     | <---> | Model  |
++-------------+       +----------------+       +--------+
+```
+#### 1. Model
+- Represents the data and business logic.
+- Responsible for retrieving, storing, and managing application data (e.g., via APIs, databases).
+Not aware of the View or ViewModel.
+#### 2. View
+- The UI layer that the user interacts with.
+- Displays data from the ViewModel.
+- Uses data binding to reflect updates from the ViewModel automatically.
+- Has no direct logic for handling business rules.
+#### 3. ViewModel
+- Acts as a bridge between the View and the Model.
+- Holds presentation logic, and commands (e.g., button click logic).
+- Exposes data and commands to the View, usually via observables (e.g., INotifyPropertyChanged in C#, LiveData in Android).
+- Communicates with the Model to fetch/update data.
+
+#### 🔄 Key Features of MVVM
+- Two-way data binding (View <-> ViewModel)
+- Loose coupling between UI and business logic
+- Testability: ViewModel and Model can be tested independently of the UI
+- Code reuse and maintainability
+
 <table>
   <tr>
     <td>
@@ -49,9 +76,14 @@
       <a href="https://github.com/Savelenko/functional-mvvm">
         <img src="https://img.shields.io/badge/Functional%20MVVM%20by%20Savelenko-Project-critical?style=for-the-badge&logo=github">
       </a>
+      <br><br>
+      <a href="https://www.youtube.com/playlist?list=PL0qAPtx8YtJe3WjjoRaB28ZGlX9heBqn3">
+        <img src="https://img.shields.io/badge/Watch%20MVVM%20on%20YouTube-Video-red?style=for-the-badge&logo=youtube">
+      </a>
     </td>
   </tr>
 </table>
+
 
 ---
 ---

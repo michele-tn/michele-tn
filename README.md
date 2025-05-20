@@ -85,10 +85,16 @@ Not aware of the View or ViewModel.
         <img src="https://img.shields.io/badge/Search%20Design%20Patterns%20PDFs-Google-lightgrey?style=for-the-badge&logo=google">
       </a>
     </td>
+</table>
+<table>
+  <tr>
+    <td>
+  <a href="https://github.com/zetanove/design-pattern">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=zetanove&repo=design-pattern&theme=tokyonight">
+  </a>
+</td>
   </tr>
 </table>
-
-
 
 ---
 ---

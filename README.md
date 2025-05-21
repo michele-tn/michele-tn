@@ -119,10 +119,6 @@ Not aware of the View or ViewModel.
   </tr>
 </table>
 
----
----
-
-
 | **Resource**                                           | **Link**                                                                                                                              |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | *Mastering Regular Expressions* – O'Reilly (PDF)       | [Download PDF](https://www.google.com/search?q=inurl%3A%22OReilly.Mastering.Regular.Expressions.3rd.Edition%22&sca_esv=1bbf12dcdfda0a2c&ei=WLMkaPPxHdP_7_UPu-rw4A8&ved=0ahUKEwjz_eOMoKONAxXT_7sIHTs1HPwQ4dUDCBA&uact=5&oq=inurl%3A%22OReilly.Mastering.Regular.Expressions.3rd.Edition%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiOWludXJsOiJPUmVpbGx5Lk1hc3RlcmluZy5SZWd1bGFyLkV4cHJlc3Npb25zLjNyZC5FZGl0aW9uIkixJlC9E1jQHXABeACQAQCYAUOgAZoJqgECMjO4AQPIAQD4AQGYAgCgAgCYAwCIBgGSBwCgB4sIsgcAuAcA&sclient=gws-wiz-serp)                         |
@@ -130,6 +126,9 @@ Not aware of the View or ViewModel.
 | *Regular Expressions Cookbook* (Official site)         | [Visit Website](https://www.regular-expressions-cookbook.com/)                                                                        |
 | RegEx Comparison Across Languages (PDF)                | [Download PDF](https://www.google.com/search?q=%22RegExp_perl_python_java_etc%22+filetype%3Apdf&oq=%22RegExp_perl_python_java_etc%22+filetype%3Apdf&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzczN2owajmoAgCwAgE&sourceid=chrome&ie=UTF-8)                                                                  |
 
+
+---
+---
 
 ### 🔥 Backup and Restore GRUB Configuration to Prevent Boot Issues
 <a href="https://gist.github.com/michele-tn/306de7684deac6aa2dd5719707cc0041" target="_blank">
@@ -161,6 +160,29 @@ Not aware of the View or ViewModel.
 - **[SSH!] 𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌 𝑻𝙘𝒑𝙙𝒖𝙢𝒑 𝑹𝙚𝒎𝙤𝒕𝙚 𝘾𝒂𝙥𝒕𝙪𝒓𝙞𝒏𝙜!** <br>
 🔗 [gist.github link](https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051) -->
 
+---
+---
+
+## 🕵️‍♂️ Reverse Engineering Toolkit
+
+A curated list of reverse engineering tools, courses, and resources 🧠🔍
+
+| 🔗 Resource | 📄 Description |
+|------------|----------------|
+| [![Blog](https://img.shields.io/badge/0xinfection-Blog-blue?logo=github)](https://0xinfection.github.io/reversing/) | 🌐 Personal blog with reversing content |
+| [![pex64dbg](https://img.shields.io/badge/pex64dbg-Tool-orange?logo=windows)](https://github.com/horsicq/pex64dbg) | 🛠️ PE explorer/debugger |
+| [![x64dbg](https://img.shields.io/badge/x64dbg-Debugger-brightgreen?logo=github)](https://github.com/x64dbg/x64dbg) | 🔧 Advanced open-source debugger |
+| [![wtsxDev](https://img.shields.io/badge/wtsxDev--RE-Resources-yellow?logo=book)](https://github.com/wtsxDev/reverse-engineering) | 📚 General RE resources |
+| [![RE4Beginners](https://img.shields.io/badge/MyTechnoTalent--Beginners-lightgrey?logo=readthedocs)](https://github.com/mytechnotalent/Reverse-Engineering) | 🧑‍🏫 RE for absolute beginners |
+| [![Z0FCourse](https://img.shields.io/badge/Z0F--Course-purple?logo=graduation-cap)](https://github.com/0xZ0F/Z0FCourse_ReverseEngineering?tab=readme-ov-file) | 🎓 Free RE course by 0xZ0F |
+| [![Ghidra](https://img.shields.io/badge/Ghidra-NSA-red?logo=nsa)](https://github.com/NationalSecurityAgency/ghidra) | 🧰 Official NSA RE suite |
+| [![ReadingList](https://img.shields.io/badge/Reading--List-informational?logo=readme)](https://github.com/onethawt/reverseengineering-reading-list) | 📖 Comprehensive RE reading list |
+| [![Retoolkit](https://img.shields.io/badge/Retoolkit--Tools-success?logo=tool)](https://github.com/mentebinaria/retoolkit) | 🧵 Swiss army knife for RE |
+| [![AwesomeReversing](https://img.shields.io/badge/Awesome--Reversing-collection-blueviolet?logo=awesome-lists)](https://github.com/HACKE-RC/awesome-reversing) | 🌟 Curated list of RE resources |
+| [![Cutter](https://img.shields.io/badge/Cutter-GUI--for--Rizin-critical?logo=cut)](https://github.com/rizinorg/cutter) | ✂️ Reverse engineering GUI |
+
+---
+---
 
 - ### **(SQL) WhereUsed Stored Procedure for SQL Server** <br>
 <blockquote><blockquote><pre>This  SQL  script  modifies  the [dbo].[WhereUsed]

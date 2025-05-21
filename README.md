@@ -180,6 +180,7 @@ A curated list of reverse engineering tools, courses, and resources 🧠🔍
 | [![Retoolkit](https://img.shields.io/badge/Retoolkit--Tools-success?logo=tool)](https://github.com/mentebinaria/retoolkit) | 🧵 Swiss army knife for RE |
 | [![AwesomeReversing](https://img.shields.io/badge/Awesome--Reversing-collection-blueviolet?logo=awesome-lists)](https://github.com/HACKE-RC/awesome-reversing) | 🌟 Curated list of RE resources |
 | [![Cutter](https://img.shields.io/badge/Cutter-GUI--for--Rizin-critical?logo=cut)](https://github.com/rizinorg/cutter) | ✂️ Reverse engineering GUI |
+| [![PracticalPDFs](https://img.shields.io/badge/Practical--PDFs-GoogleSearch-lightblue?logo=google)](https://www.google.com/search?q=pratical+reverse+enginerinf+%2Bfilettpe%3Apdf&oq=pratical+reverse+enginerinf+%2Bfilettpe%3Apdf&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTE3MDAxajBqNKgCALACAQ&sourceid=chrome-mobile&ie=UTF-8) | 📄 Google search for practical RE PDFs |
 
 ---
 ---

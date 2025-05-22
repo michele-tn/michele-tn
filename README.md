@@ -184,6 +184,9 @@ A curated list of reverse engineering tools, courses, and resources 🧠🔍
 
 ---
 ---
+[![OpenWRT](https://img.shields.io/badge/Advanced--Gist-insightful-purple?logo=github)](https://gist.github.com/michele-tn/0825223729c930b56c0096faefb0532a) ➜ 🧬 How to Create VLANs via SSH on OpenWRT Routers (e.g., GL.iNet Mango)
+---
+---
 
 - ### **(SQL) WhereUsed Stored Procedure for SQL Server** <br>
 <blockquote><blockquote><pre>This  SQL  script  modifies  the [dbo].[WhereUsed]

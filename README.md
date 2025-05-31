@@ -18,7 +18,7 @@
     <img 
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗲𝗱%20𝗥𝗲𝘃𝗲𝗿𝘀𝗲%20𝗦𝗦𝗛%20𝗣𝗼𝗿𝘁%20𝗙𝗼𝗿𝘄𝗮𝗿𝗱𝗶𝗻𝗴-9cf?style=for-the-badge" 
       alt="Automated Reverse SSH Port Forwarding" 
-      style="transform: scale(2); transform-origin: left; height: auto;" >
+      style="transform: scale(1); transform-origin: left; height: auto;" >
   </a><br/>
 
   <a href="https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051" target="_blank">

@@ -12,14 +12,22 @@
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-SSH%20TUNNELS-blue?style=for-the-badge" 
       alt="SSH TUNNELS" 
       style="transform: scale(2); transform-origin: left; height: auto;">
+  </a>  
+  <a href="https://gist.github.com/michele-tn/83156455e528fcee4f84301c699912b4" target="_blank" style="text-decoration: none;">
+    <img 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Automated%20Reverse%20SSH%20Port%20Forwarding-007ACC?style=for-the-badge&logo=github" 
+      alt="Automated Reverse SSH Port Forwarding Badge" 
+      style="
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        transform-origin: left; 
+        height: auto; 
+        border-radius: 6px; 
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);"
+      onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
+      onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
+    >
   </a><br/>
 
-  <a href="https://gist.github.com/michele-tn/83156455e528fcee4f84301c699912b4" target="_blank">
-    <img 
-      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗲𝗱%20𝗥𝗲𝘃𝗲𝗿𝘀𝗲%20𝗦𝗦𝗛%20𝗣𝗼𝗿𝘁%20𝗙𝗼𝗿𝘄𝗮𝗿𝗱𝗶𝗻𝗴-9cf?style=for-the-badge" 
-      alt="Automated Reverse SSH Port Forwarding" 
-      style="transform: scale(1); transform-origin: left; height: auto;" >
-  </a><br/>
 
   <a href="https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051" target="_blank">
     <img 

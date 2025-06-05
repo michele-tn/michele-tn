@@ -28,6 +28,12 @@
     >
   </a><br/>
 
+ <br/><a href="https://gist.github.com/michele-tn/b9123d60660a2b2b780b24de65a935f5" target="_blank">
+    <img 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Videojet%20—%20Zipher%20Text%20Communications%20Protocol%20Example-green?style=for-the-badge" 
+      alt="Zipher Protocol" 
+      style="transform: scale(2); transform-origin: left; height: auto;">
+ </a><br/>
 
   <a href="https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051" target="_blank">
     <img 

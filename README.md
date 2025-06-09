@@ -313,8 +313,12 @@ Setting up a self-hosted Shadowsocks server is an investment in security, privac
 ---
 ---
 
+<!--
 <H1 align="center">▂▃▅▇█▓▒░۞░▒▓█▇▅▃▂</H1>
-<H1 align="center">'(◣_◢)' ●▬● **Favorite links** ●▬●▬●▬●</H1>
+<H1 align="center">'(◣_◢)' ●▬● **Favorite links** ●▬●▬●▬●</H1> -->
+
+<H1 align="center">▂▃▅▇█▓▒░•Favorite links•░▒▓█▇▅▃▂</H1>
+<H1 align="center">'(◣_◢)' ●▬● </H1>
 
 ### *Webmin — Powerful and flexible web-based server management control panel*
 https://github.com/webmin/webmin<br><br>

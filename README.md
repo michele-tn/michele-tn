@@ -56,7 +56,10 @@
 
 
 ### 🔥 MVVM (Model-View-ViewModel) design pattern !!!!
-The MVVM (Model-View-ViewModel) design pattern is a software architectural pattern commonly used in building user interfaces, especially in desktop and mobile applications. It helps separate the development of the graphical user interface (UI) from the business logic or backend logic.
+<!--The MVVM (Model-View-ViewModel) design pattern is a software architectural pattern commonly used in building user interfaces, especially in desktop and mobile applications. It helps separate the development of the graphical user interface (UI) from the business logic or backend logic.-->
+The MVVM (Model-View-ViewModel) design pattern enforces a clear separation of concerns by decoupling the user interface (View) from the underlying business logic and data (Model), with the ViewModel acting as a mediator. This structure enhances code clarity, testability, and long-term maintainability.
+
+
 ```sql
 +-------------+       +----------------+       +--------+
 |   View      | <---> |  ViewModel     | <---> | Model  |

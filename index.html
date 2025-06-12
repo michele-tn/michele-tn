@@ -139,16 +139,28 @@
     border-radius: 8px;
     margin-top: 20px;
   }
+
+  .client-example {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .client-example img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
 </style>
 </head>
 <body>
 <header>
 <img alt="GitHub Banner" class="banner" src="https://github.com/michele-tn/michele-tn/blob/main/github-header-image.png?raw=true"/>
-<h1>𝘾𝒐𝙢𝒑𝙪𝙩𝙚𝙧 𝒔𝙘𝒊𝙚𝙣𝒄𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝙪𝙩 𝙘𝒐𝙢𝒑𝙪𝙩𝙚𝙧𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝒚 𝒊𝙨 𝙖𝒃𝙤𝙪𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!</h1>
+<h1>𝘾𝒐𝙢𝒑𝙪𝙩𝙚𝙧 𝒔𝙘𝒊𝙚𝙣𝒄𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝙪𝙩 𝙘𝒐𝙢𝒑𝙪𝙩𝙚𝙧𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝙮 𝒊𝙨 𝙖𝒃𝙤𝙪𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!</h1>
 <img alt="Animation" class="gif" src="https://github.com/michele-tn/michele-tn/blob/main/03052025.gif?raw=true"/>
 <h2><a href="https://github.com/michele-tn" target="_blank">🔥 Visit michele-tn's GitHub profile</a></h2>
 </header>
 <div class="container">
+
 <section>
 <h2>🔥 Useful Gists</h2>
 <div class="badge-container">
@@ -159,31 +171,53 @@
 <a href="https://gist.github.com/michele-tn/72e98318c1994baec01c6247510ccdb9"><img src="https://img.shields.io/badge/GIST-Google%20Dorking-orange?style=for-the-badge"/></a>
 </div>
 </section>
+
 <section>
-<h2>🧠 MVVM (Model-View-ViewModel)</h2>
-<p>The MVVM (Model-View-ViewModel) design pattern enforces a clear separation of concerns by decoupling the user interface (View) from the underlying business logic and data (Model), with the ViewModel acting as a mediator. This structure enhances code clarity, testability, and long-term maintainability.</p>
+<h2>🕵️‍♂️ Privacy Tools</h2>
+<p>If you're concerned about privacy or internet censorship, consider using open-source proxy technologies such as <strong>Shadowsocks-libev</strong> on the server side and <strong>v2rayN</strong> as a Windows client.</p>
+
+<h3>🔐 Encrypted Architecture (Client → Server)</h3>
 <pre>
-+-------------+       +----------------+       +--------+
-|   View      | <-->  |  ViewModel     | <-->  | Model  |
-+-------------+       +----------------+       +--------+
+        [v2rayN - Client]
+         +-------------+
+         |   Windows   |
+         | Shadowsocks |
+         |  Protocol   |
+         +-------------+
+                |
+     (Encrypted over Internet)
+                |
+         +-------------+
+         |  Ubuntu VPS |
+         | Shadowsocks |
+         |   libev     |
+         +-------------+
 </pre>
+
 <ul>
-<li><strong>Model:</strong> Application logic and data</li>
-<li><strong>View:</strong> User interface, data binding</li>
-<li><strong>ViewModel:</strong> Connection between UI and data</li>
+  <li><strong>Client:</strong> v2rayN uses Shadowsocks protocol to encrypt traffic before sending it.</li>
+  <li><strong>Transport:</strong> The encrypted traffic (e.g. AES-256-GCM, xchacha20-ietf-poly1305) passes through the internet.</li>
+  <li><strong>Server:</strong> shadowsocks-libev decrypts the traffic and forwards it to the destination (e.g. Google, GitHub).</li>
 </ul>
-<h3>🔁 Key Benefits</h3>
-<ul>
-<li>Two-way data binding</li>
-<li>Improved maintainability</li>
-<li>Separation of concerns</li>
-<li>Facilitated unit testing</li>
-</ul>
-<p>🌐 <a href="https://giobel.github.io/MVVM/">MVVM Web Guide</a> | 
-         <a href="https://github.com/Savelenko/functional-mvvm">Functional MVVM</a> | 
-         <a href="https://www.youtube.com/playlist?list=PL0qAPtx8YtJe3WjjoRaB28ZGlX9heBqn3">YouTube Playlist</a>
-</p>
+
+<div class="client-example">
+<h4>🖼️ v2rayN Example Configuration (System Proxy + TUN Enabled)</h4>
+<img src="https://github.com/michele-tn/michele-tn/blob/main/V2RAYN.jpg?raw=true" alt="v2rayN Configuration Screenshot">
+</div>
+
+<h4>🧰 Tools</h4>
+<div class="badge-container">
+  <a href="https://github.com/shadowsocks/shadowsocks-libev" target="_blank">
+    <img src="https://img.shields.io/badge/SHADOWSOCKS-libev-red?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/2dust/v2rayN" target="_blank">
+    <img src="https://img.shields.io/badge/V2RAY-N-blueviolet?style=for-the-badge"/>
+  </a>
+</div>
+
+<p>✔️ Easy to deploy, lightweight, and suitable for bypassing censorship with strong encryption.</p>
 </section>
+
 <section>
 <h2>📌 Useful RegEX How-Tos and TOOLS!!</h2>
 <div class="grid">
@@ -202,6 +236,7 @@
 <td><a href="https://www.google.com/search?q=%22RegExp_perl_python_java_etc%22+filetype%3Apdf" target="_blank">Search PDF</a></td></tr>
 </table>
 </section>
+
 </div>
 <footer>
 <p><a href="https://github.com/michele-tn" style="color: #fff;" target="_blank">𝙈1𝙘𝒉3𝑳𝙚-𝙏𝒏</a></p>

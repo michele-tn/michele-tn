@@ -201,19 +201,19 @@
 <h2>🕵️‍♂️ Privacy Tools</h2>
 <p>If you're concerned about privacy or internet censorship, consider using open-source proxy technologies such as <strong>Shadowsocks-libev</strong> on the server side and <strong>v2rayN</strong> as a Windows client.</p>
 
-<h3>🔐 Encrypted Architecture (Client → Server)</h3>
+<h3>🔐 Architecture</h3>
 <pre>
         [v2rayN - Client]
          +-------------+
-         |   Windows   |
+         |  (Windows)  |
          | Shadowsocks |
          |  Protocol   |
          +-------------+
                 |
-     (Encrypted over Internet)
+(Encrypted traffic over Internet)
                 |
          +-------------+
-         |  Ubuntu VPS |
+         | (UbuntuVPS) |
          | Shadowsocks |
          |   libev     |
          +-------------+

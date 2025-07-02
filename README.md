@@ -48,6 +48,14 @@
       alt="Google Dorking" 
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a>
+
+  <!-- Nuovo link inserito -->
+  <a href="https://gist.github.com/michele-tn/96e7743ca0740e3a2a077a30985c90e8" target="_blank">
+    <img 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Advanced%20Network%20Stress--Testing%20in%20C%23-darkred?style=for-the-badge" 
+      alt="Advanced Network Stress-Testing in C#" 
+      style="transform: scale(2); transform-origin: left; height: auto;" >
+  </a>
 </div>
 
 

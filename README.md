@@ -47,12 +47,12 @@
     >
   </a><br/>
 
- <br/><a href="https://gist.github.com/michele-tn/b9123d60660a2b2b780b24de65a935f5" target="_blank">
+  <a href="https://gist.github.com/michele-tn/b9123d60660a2b2b780b24de65a935f5" target="_blank">
     <img 
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Videojet%20—%20Zipher%20Text%20Communications%20Protocol%20Example-green?style=for-the-badge" 
       alt="Zipher Protocol" 
       style="transform: scale(2); transform-origin: left; height: auto;">
- </a><br/>
+  </a><br/>
 
   <a href="https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051" target="_blank">
     <img 
@@ -66,9 +66,16 @@
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Google%20Dorking%3A%20Hacking%20with%20Google!-orange?style=for-the-badge" 
       alt="Google Dorking" 
       style="transform: scale(2); transform-origin: left; height: auto;" >
-  </a>
+  </a><br/>
 
-  <!-- Nuovo link inserito -->
+  <!-- **Database Normalization: From 1NF to 6NF** -->
+  <a href="https://gist.github.com/michele-tn/6d1d43b7111a2e04947ebad76e077f2c" target="_blank">
+    <img 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Database%20Normalization%3A%201NF%20to%206NF-lightgrey?style=for-the-badge" 
+      alt="Database Normalization: From 1NF to 6NF" 
+      style="transform: scale(2); transform-origin: left; height: auto;" >
+  </a><br/>
+
   <a href="https://gist.github.com/michele-tn/96e7743ca0740e3a2a077a30985c90e8" target="_blank">
     <img 
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Advanced%20Network%20Stress--Testing%20in%20C%23-darkred?style=for-the-badge" 
@@ -76,6 +83,7 @@
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a>
 </div>
+
 
 
 ---

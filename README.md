@@ -56,7 +56,7 @@
 
   <a href="https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051" target="_blank">
     <img 
-      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌%20%20𝑹𝙚𝒎𝙤𝒕𝙚%20𝘾𝒂𝙥𝒕𝙪𝒓𝙞𝒏𝙜!-blueviolet?style=for-the-badge" 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌%20%20𝑹𝙚𝒎𝙤𝒕𝙚%20𝘾𝒂𝙥𝒕𝙪𝙧𝙞𝒏𝙜!-blueviolet?style=for-the-badge" 
       alt="Wireshark Remote Capturing" 
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a><br/>
@@ -81,8 +81,25 @@
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Advanced%20Network%20Stress--Testing%20in%20C%23-darkred?style=for-the-badge" 
       alt="Advanced Network Stress-Testing in C#" 
       style="transform: scale(2); transform-origin: left; height: auto;" >
+  </a><br/>
+
+  <!-- MD5 -->
+  <a href="https://gist.github.com/michele-tn/f2c5bfbc4e6c6470ea3a16673dcb5038" target="_blank">
+    <img 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-MD5%20Implementation-yellow?style=for-the-badge" 
+      alt="MD5 Implementation" 
+      style="transform: scale(2); transform-origin: left; height: auto;" >
   </a>
+  <!-- Online Tools -->
+  <a href="https://michele-tn.github.io/online-tools/" target="_blank">
+    <img 
+      src="https://img.shields.io/badge/Github.io-Online%20Tools-brightgreen?style=for-the-badge&logo=github" 
+      alt="Online Tools" 
+      style="transform: scale(2); transform-origin: left; height: auto;" >
+  </a>
+
 </div>
+
 
 
 

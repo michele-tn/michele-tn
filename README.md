@@ -26,12 +26,18 @@
 ### 🔥 Useful Gists
 <div style="display: flex; flex-direction: column; gap: 40px; align-items: flex-start; justify-content: center;">
 
-  <a href="https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7" target="_blank">
+
+  <a href="https://gist.github.com/michele-tn/6185f852f80297dec232b67ecad85c3e" target="_blank">
+    <img 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Secure%20Guest%20SFTP%20User%20on%20Ubuntu%2022.04.5-darkgreen?style=for-the-badge" 
+      alt="Secure Guest SFTP User on Ubuntu 22.04.5" 
+      style="transform: scale(2); transform-origin: left; height: auto;">
+  </a> <a href="https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7" target="_blank">
     <img 
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-SSH%20TUNNELS-blue?style=for-the-badge" 
       alt="SSH TUNNELS" 
       style="transform: scale(2); transform-origin: left; height: auto;">
-  </a>  
+  </a><br/><br/>  
   <a href="https://gist.github.com/michele-tn/83156455e528fcee4f84301c699912b4" target="_blank" style="text-decoration: none;">
     <img 
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Automated%20Reverse%20SSH%20Port%20Forwarding-007ACC?style=for-the-badge&logo=github" 

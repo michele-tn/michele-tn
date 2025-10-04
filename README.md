@@ -90,7 +90,7 @@
   </a><br/>
 
   <!-- MD5 -->
-  <a href="https://gist.github.com/michele-tn/f2c5bfbc4e6c6470ea3a16673dcb5038" target="_blank">
+  <br/><br/><a href="https://gist.github.com/michele-tn/f2c5bfbc4e6c6470ea3a16673dcb5038" target="_blank">
     <img 
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-MD5%20Implementation-yellow?style=for-the-badge" 
       alt="MD5 Implementation" 

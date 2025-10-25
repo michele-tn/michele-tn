@@ -70,7 +70,7 @@
 </a><br/>
 
 <!-- ✅ New Link Added -->
-<a href="https://github.com/michele-tn/Secure-E-mail-Notifications-for-Fail2Ban-using-Gmail-SMTP-or-Gmail-API/blob/main/README.md" target="_blank" style="text-decoration: none;">
+<a href="https://github.com/michele-tn/Secure-E-mail-Notifications-for-Fail2Ban-using-Gmail-SMTP-or-Gmail-API/blob/main/README.MD" target="_blank" style="text-decoration: none;">
   <img 
     src="https://img.shields.io/badge/Project-Secure%20Email%20Notifications%20for%20Fail2Ban%20(Gmail%20SMTP%20%2F%20API)-D14836?style=for-the-badge&logo=github" 
     alt="Secure Email Notifications for Fail2Ban using Gmail SMTP or Gmail API" 

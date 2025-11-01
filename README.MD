@@ -85,7 +85,17 @@
   >
 </a><br/><br/>
 
-
+<h3>**Chrome extension:</h3>
+<!-- Inserito: m3u8 Catcher Pro v4.6 -->
+<a href="https://github.com/michele-tn/m3u8-Catcher-Pro-v4.6-Chrome-extension" target="_blank" style="text-decoration: none; margin-top: 10px;">
+  <img
+    src="https://img.shields.io/badge/Extension-m3u8%20Catcher%20Pro%20v4.6%20%E2%80%94%20Chrome%20extension-ff5e5b?style=for-the-badge&logo=google-chrome"
+    alt="m3u8 Catcher Pro v4.6 - Chrome extension"
+    style="transform: scale(2); transform-origin: left; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.18);"
+    onmouseover="this.style.transform='scale(2.05)'; this.style.boxShadow='0 6px 18px rgba(0,0,0,0.28)'"
+    onmouseout="this.style.transform='scale(2)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.18)'"
+  >
+</a>><br/><br/>
 
   <a href="https://gist.github.com/michele-tn/b9123d60660a2b2b780b24de65a935f5" target="_blank">
     <img 

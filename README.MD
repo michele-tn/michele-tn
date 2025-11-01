@@ -93,8 +93,7 @@
     alt="m3u8 Catcher Pro v4.6 - Chrome extension"
     style="transform: scale(2); transform-origin: left; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.18);"
     onmouseover="this.style.transform='scale(2.05)'; this.style.boxShadow='0 6px 18px rgba(0,0,0,0.28)'"
-    onmouseout="this.style.transform='scale(2)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.18)'">
-</a>><br/><br/>
+    onmouseout="this.style.transform='scale(2)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.18)'"></a>><br/><br/>
 
   <a href="https://gist.github.com/michele-tn/b9123d60660a2b2b780b24de65a935f5" target="_blank">
     <img 

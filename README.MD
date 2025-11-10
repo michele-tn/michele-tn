@@ -1,4 +1,4 @@
-![Header](./github-header-image.png)<br><br>
+•![Header](./github-header-image.png)<br><br>
 <H1 align="center">
 𝘾𝒐𝙢𝒑𝙪𝒕𝙚𝒓 𝒔𝙘𝒊𝙚𝒏𝙘𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝒖𝙩 𝙘𝒐𝙢𝒑𝙪𝒕𝙚𝒓𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝒚 𝒊𝙨 𝙖𝒃𝙤𝒖𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!<br/>
   <img src="./03052025.gif" width="50%" height: auto>
@@ -91,7 +91,7 @@
     alt="RustDesk Portable Auto Downloader & Configurator (Windows x64)" 
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a><br/><br/>
-
+• • • • • • • • • • • • • • • • • • • • • • • • • •
 
 
   <a href="https://gist.github.com/michele-tn/b9123d60660a2b2b780b24de65a935f5" target="_blank">
@@ -128,7 +128,7 @@
       alt="Advanced Network Stress-Testing in C#" 
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a><br/>
-
+• • • • • • • • • • • • • • • • • • • • • • • • • •
   <br/><br/><a href="https://gist.github.com/michele-tn/f2c5bfbc4e6c6470ea3a16673dcb5038" target="_blank">
     <img 
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-MD5%20Implementation-yellow?style=for-the-badge" 

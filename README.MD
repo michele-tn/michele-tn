@@ -91,7 +91,7 @@
     alt="RustDesk Portable Auto Downloader & Configurator (Windows x64)" 
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a><br/><br/>
-• • • • • • • • • • • • • • • • • • • • • • • • • •
+• • • • • • • • • • • • • • • • • • • • • • • • • •<br/><br/>
 
 
   <a href="https://gist.github.com/michele-tn/b9123d60660a2b2b780b24de65a935f5" target="_blank">

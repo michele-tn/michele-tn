@@ -83,17 +83,16 @@
     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
   >
+</a><br/>
+<!-- 🧩 GIST: RustDesk Portable Auto Downloader -->
+<a href="https://gist.github.com/michele-tn/3dd7b8c2f4c6a4e3c21fd4b5c7d40a6d" target="_blank">
+  <img 
+    src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-RustDesk%20Portable%20Auto%20Downloader%20%26%20Configurator%20(Windows%20x64)-f28b20?style=for-the-badge" 
+    alt="RustDesk Portable Auto Downloader & Configurator (Windows x64)" 
+    style="transform: scale(2); transform-origin: left; height: auto;">
 </a><br/><br/>
 
-<h3>**Chrome extension:</h3>
-<!-- Inserito: m3u8 Catcher Pro v4.6 -->
-<a href="https://github.com/michele-tn/m3u8-Catcher-Pro-v4.6-Chrome-extension" target="_blank" style="text-decoration: none; margin-top: 10px;">
-  <img
-    src="https://img.shields.io/badge/Extension-m3u8%20Catcher%20Pro%20v4.6%20%E2%80%94%20Chrome%20extension-ff5e5b?style=for-the-badge&logo=google-chrome"
-    alt="m3u8 Catcher Pro v4.6 - Chrome extension"
-    style="transform: scale(2); transform-origin: left; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.18);"
-    onmouseover="this.style.transform='scale(2.05)'; this.style.boxShadow='0 6px 18px rgba(0,0,0,0.28)'"
-    onmouseout="this.style.transform='scale(2)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.18)'"></a><br/><br/>
+
 
   <a href="https://gist.github.com/michele-tn/b9123d60660a2b2b780b24de65a935f5" target="_blank">
     <img 
@@ -104,7 +103,7 @@
 
   <a href="https://gist.github.com/michele-tn/a591525fb4d4171e328cdcc49e2ac051" target="_blank">
     <img 
-      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌%20%20𝑹𝙚𝒎𝙤𝒕𝙚%20𝘾𝒂𝙥𝒕𝙪𝙧𝙞𝒏𝙜!-blueviolet?style=for-the-badge" 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-𝑾𝙞𝒓𝙚𝒔𝙝𝒂𝙧𝒌%20%20𝑹𝙚𝒎𝙤𝒕𝙚%20𝘾𝒂𝙥𝙩𝙪𝙧𝙞𝒏𝙜!-blueviolet?style=for-the-badge" 
       alt="Wireshark Remote Capturing" 
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a><br/>
@@ -116,7 +115,6 @@
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a><br/>
 
-  <!-- **Database Normalization: From 1NF to 6NF** -->
   <a href="https://gist.github.com/michele-tn/6d1d43b7111a2e04947ebad76e077f2c" target="_blank">
     <img 
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Database%20Normalization%3A%201NF%20to%206NF-lightgrey?style=for-the-badge" 
@@ -131,14 +129,12 @@
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a><br/>
 
-  <!-- MD5 -->
   <br/><br/><a href="https://gist.github.com/michele-tn/f2c5bfbc4e6c6470ea3a16673dcb5038" target="_blank">
     <img 
       src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-MD5%20Implementation-yellow?style=for-the-badge" 
       alt="MD5 Implementation" 
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a>
-  <!-- Online Tools -->
   <a href="https://michele-tn.github.io/online-tools/" target="_blank">
     <img 
       src="https://img.shields.io/badge/Github.io-Online%20Tools-brightgreen?style=for-the-badge&logo=github" 
@@ -146,7 +142,18 @@
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a>
 
+
+<h3>**Chrome extension:</h3>
+<!-- Inserito: m3u8 Catcher Pro v4.6 -->
+<a href="https://github.com/michele-tn/m3u8-Catcher-Pro-v4.6-Chrome-extension" target="_blank" style="text-decoration: none; margin-top: 10px;">
+  <img
+    src="https://img.shields.io/badge/Extension-m3u8%20Catcher%20Pro%20v4.6%20%E2%80%94%20Chrome%20extension-ff5e5b?style=for-the-badge&logo=google-chrome"
+    alt="m3u8 Catcher Pro v4.6 - Chrome extension"
+    style="transform: scale(2); transform-origin: left; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.18);"
+    onmouseover="this.style.transform='scale(2.05)'; this.style.boxShadow='0 6px 18px rgba(0,0,0,0.28)'"
+    onmouseout="this.style.transform='scale(2)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.18)'"></a><br/><br/>
 </div>
+
 
 
 

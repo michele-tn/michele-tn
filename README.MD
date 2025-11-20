@@ -128,6 +128,13 @@
       alt="Advanced Network Stress-Testing in C#" 
       style="transform: scale(2); transform-origin: left; height: auto;" >
   </a><br/>
+<a href="https://github.com/michele-tn/SystemMetricsPanel" target="_blank">
+  <img
+    src="https://img.shields.io/badge/𝙂𝙄𝙏𝙃𝙐𝘽-SystemMetricsPanel%20—%20Bash%20System%20Monitor-success?style=for-the-badge"
+    alt="SystemMetricsPanel - Bash System Monitor"
+    style="transform: scale(2); transform-origin: left; height: auto;">
+</a><br/>
+
 • • • • • • • • • • • • • • • • • • • • • • • • • •
   <br/><br/><a href="https://gist.github.com/michele-tn/f2c5bfbc4e6c6470ea3a16673dcb5038" target="_blank">
     <img 

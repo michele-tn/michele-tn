@@ -75,20 +75,10 @@
 </table>
 <!-- SSH TUNNEL CONFIG!!! - - - //  -->
 
-<!-- PIN CARD SUBL1St3r -->
 
-<table>
-<tr>
-<td>
-<a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6" target="_blank"><strong>📌 Sublist3r — ADVANCED LINUX DIAGNOSTIC SCRIPTS</strong></a><br/>
-<sub>Utility avanzate per diagnostica, enumerazione host e scansione sottodomini tramite Sublist3r.</sub><br/>
-<sub>🔧 Bash / Linux Tools</sub>
-</td>
-</tr>
-</table>
+<table><tr><td style="border:1px solid #d0d7de;border-radius:6px;padding:12px 16px;background:#ffffff;"><a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6" target="_blank"><strong>📌 Sublist3r — ADVANCED LINUX DIAGNOSTIC SCRIPTS</strong></a><br/><sub>Utility avanzate per diagnostica, enumerazione host e scansione sottodomini tramite Sublist3r.</sub><br/><sub>⚙️ Bash / Linux Tools</sub></td></tr></table>
 
 
-<!-- PIN CARD SUBL1St3r -->
 
 <a href="https://github.com/michele-tn/Show-Localhost-Tunnels" target="_blank" style="text-decoration: none;">
   <img 

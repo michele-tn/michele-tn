@@ -77,7 +77,7 @@
 
 <!-- SUBLIST3R DIAGNOSTIC SCRIPTS!!!  + + + // -->
 <table><tr><td>
-<a href="https://github.com/michele-tn/Sublist3r-Advanced-Linux-Diagnostic-Scripts" target="_blank">
+<a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6" target="_blank">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=michele-tn&repo=Sublist3r-Advanced-Linux-Diagnostic-Scripts&theme=tokyonight" alt="Sublist3r - Advanced Linux Diagnostic Scripts">
 </a>
 </td></tr></table>

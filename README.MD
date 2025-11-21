@@ -39,7 +39,7 @@
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a><br/>  
 
-<a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-" target="_blank" style="text-decoration: none;">
+<!-- <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-" target="_blank" style="text-decoration: none;">
   <img 
     src="https://img.shields.io/badge/Project-SSH%20Tunnel%20Service%20%E2%80%94%20Reverse%20SSH%20Port%20Forwarding%20(Windows)-007ACC?style=for-the-badge&logo=github" 
     alt="Project — SSH Tunnel Service — Reverse SSH Port Forwarding (Windows) Badge" 
@@ -52,7 +52,37 @@
     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
   >
-</a><br/>
+</a> -->
+<!-- SSH TUNNEL CONFIG!!!  + + + // -->
+<table>
+  <tr>
+
+    <!-- TILE 1 -->
+    <td align="center" width="50%" bgcolor="#007ACC">
+      <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-" target="_blank">
+        <img 
+          src="https://img.shields.io/badge/SSH%20Tunnel%20Service-FFFFFF?style=for-the-badge&logo=github&logoColor=white" 
+          alt="SSH Tunnel Service"
+        >
+      </a>
+    </td>
+
+    <!-- TILE 2 -->
+    <td align="center" width="50%" bgcolor="#2D89EF">
+      <a href="https://github.com/michele-tn/SSH-appSettings-Configurator" target="_blank">
+        <img 
+          src="https://img.shields.io/badge/SSH%20Tunnel%20Config%20Editor-FFFFFF?style=for-the-badge&logo=github&logoColor=white" 
+          alt="SSH Tunnel Config Editor"
+        >
+      </a>
+    </td>
+
+  </tr>
+</table>
+
+
+<!-- SSH TUNNEL CONFIG!!! - - - //  -->
+<br/>
 
 <a href="https://github.com/michele-tn/Show-Localhost-Tunnels" target="_blank" style="text-decoration: none;">
   <img 

@@ -76,14 +76,13 @@
 <!-- SSH TUNNEL CONFIG!!! - - - //  -->
 
 <!-- SUBLIST3R DIAGNOSTIC SCRIPTS!!!  + + + // -->
-<ul>
-<li>Sublist3r — Advanced Linux Diagnostic Scripts</li>
-</ul>
 <p dir="auto">
 <a target="_blank" rel="noopener noreferrer nofollow" href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6">
 <img src="https://github-readme-stats.vercel.app/api/gist?id=1334d8796d2c4e308f9da69d34db49b6&theme=tokyonight&show_owner=false" alt="Gist Card" style="max-width: 100%;">
 </a>
 </p>
+<p><strong>📝 Descrizione:</strong> Utility avanzate per diagnostica, enumerazione host e scansione sottodomini tramite Sublist3r.</p>
+
 <!-- SUBLIST3R DIAGNOSTIC SCRIPTS!!! - - - // -->
 
 

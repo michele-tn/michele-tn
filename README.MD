@@ -76,7 +76,11 @@
 <!-- SSH TUNNEL CONFIG!!! - - - //  -->
 
 <!-- SUBLIST3R DIAGNOSTIC SCRIPTS!!!  + + + // -->
-<table><tr><td><a href="https://github.com/michele-tn/Sublist3r-Advanced-Linux-Diagnostic-Scripts" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=michele-tn&repo=Sublist3r-Advanced-Linux-Diagnostic-Scripts&theme=tokyonight" alt="Sublist3r - Advanced Linux Diagnostic Scripts"></a></td></tr></table>
+<table><tr><td>
+<a href="https://github.com/michele-tn/Sublist3r-Advanced-Linux-Diagnostic-Scripts" target="_blank">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=michele-tn&repo=Sublist3r-Advanced-Linux-Diagnostic-Scripts&theme=tokyonight" alt="Sublist3r - Advanced Linux Diagnostic Scripts">
+</a>
+</td></tr></table>
 <!-- SUBLIST3R DIAGNOSTIC SCRIPTS!!! - - - // -->
 
 

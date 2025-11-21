@@ -55,27 +55,24 @@
 </a> --> <br/>
 
 <!-- SSH TUNNEL CONFIG!!!  + + + // -->
-
 <table>
   <tr>
-    <!-- COLONNA SINISTRA — CARD PIN -->
     <td>
       <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-" target="_blank">
-        <img 
+        <img
           src="https://github-readme-stats.vercel.app/api/pin/?username=michele-tn&repo=SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-&theme=tokyonight"
           alt="SSH Tunnel Service — Reverse SSH Port Forwarding (Windows)">
       </a>
     </td>
     <td>
       <a href="https://github.com/michele-tn/SSH-appSettings-Configurator" target="_blank">
-        <img 
-          src="https://img.shields.io/badge/SSH%20TUNNEL%20CONFIG%20EDITOR-PROJECT-0078D7?style=for-the-badge&logo=github&logoColor=white"
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=michele-tn&repo=SSH-appSettings-Configurator&theme=tokyonight"
           alt="SSH Tunnel Config Editor">
       </a>
     </td>
   </tr>
 </table>
-
 <!-- SSH TUNNEL CONFIG!!! - - - //  -->
 <br/>
 

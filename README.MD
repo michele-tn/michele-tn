@@ -77,6 +77,7 @@
 
 <!-- PIN CARD SUBL1St3r -->
 <a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6" target="_blank" style="text-decoration:none;"><div style="width:380px;background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:16px;color:#c9d1d9;font-family:system-ui,sans-serif;transition:0.2s;"> <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="#8b949e"><path d="M3 3h18v18H3z" stroke="#8b949e" stroke-width="2" fill="none"/></svg><span style="font-size:16px;font-weight:600;color:#58a6ff;">Sublist3r — Advanced Linux Diagnostic Scripts</span></div><div style="font-size:13px;color:#8b949e;margin-bottom:10px;">Utility avanzate per diagnostica, enumerazione host e scansione sottodomini tramite Sublist3r.</div><div style="display:flex;align-items:center;gap:6px;font-size:13px;"><div style="width:10px;height:10px;border-radius:50%;background:#f1e05a;"></div><span>Bash / Linux Tools</span></div></div></a>
+
 <!-- PIN CARD SUBL1St3r -->
 
 <a href="https://github.com/michele-tn/Show-Localhost-Tunnels" target="_blank" style="text-decoration: none;">

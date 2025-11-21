@@ -55,9 +55,9 @@
 </a> --> <br/>
 
 <!-- SSH TUNNEL CONFIG!!!  + + + // -->
+
 <table>
   <tr>
-
     <!-- COLONNA SINISTRA — CARD PIN -->
     <td>
       <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-" target="_blank">
@@ -66,18 +66,13 @@
           alt="SSH Tunnel Service — Reverse SSH Port Forwarding (Windows)">
       </a>
     </td>
-
-    <!-- COLONNA DESTRA — SOLO SSH TUNNEL CONFIG EDITOR -->
     <td>
-
       <a href="https://github.com/michele-tn/SSH-appSettings-Configurator" target="_blank">
         <img 
           src="https://img.shields.io/badge/SSH%20TUNNEL%20CONFIG%20EDITOR-PROJECT-0078D7?style=for-the-badge&logo=github&logoColor=white"
           alt="SSH Tunnel Config Editor">
       </a>
-
     </td>
-
   </tr>
 </table>
 

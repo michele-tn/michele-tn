@@ -74,13 +74,22 @@
   </tr>
 </table>
 <!-- SSH TUNNEL CONFIG!!! - - - //  -->
-<br/>
-<a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Advanced%20Linux%20Diagnostic%20Scripts-orange?style=for-the-badge" 
-    alt="Advanced Linux Diagnostic Scripts" 
-    style="transform: scale(2); transform-origin: left; height: auto;">
-</a><br/>
+<div style="
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  width: fit-content;
+  background: #fafafa;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+">
+  <a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6" target="_blank" style="text-decoration: none;">
+    <img 
+      src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Sublist3r%20%E2%80%94%20ADVANCED%20LINUX%20DIAGNOSTIC%20SCRIPTS-orange?style=for-the-badge" 
+      alt="Sublist3r — ADVANCED LINUX DIAGNOSTIC SCRIPTS" 
+      style="transform: scale(1.8); transform-origin: left; height: auto;">
+  </a>
+</div>
+
 
 <a href="https://github.com/michele-tn/Show-Localhost-Tunnels" target="_blank" style="text-decoration: none;">
   <img 

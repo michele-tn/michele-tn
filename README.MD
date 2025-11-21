@@ -85,11 +85,9 @@
     padding: 18px;
     color: #c9d1d9;
     font-family: system-ui, sans-serif;
-    transition: 0.25s ease;
-  "
+    transition: 0.25s ease;"
   onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0, 0, 0, 0.4)';"
-  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
-  >
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
     <!-- Icon + Title -->
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="#8b949e">

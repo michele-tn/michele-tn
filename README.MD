@@ -54,31 +54,58 @@
   >
 </a> -->
 <!-- SSH TUNNEL CONFIG!!!  + + + // -->
-<table>
-  <tr>
+<!-- SSH Tunnel Tiles - Metro style -->
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: stretch; justify-content: flex-start;">
 
-    <!-- TILE 1 -->
-    <td align="center" width="50%" bgcolor="#007ACC">
-      <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-" target="_blank">
-        <img 
-          src="https://img.shields.io/badge/SSH%20Tunnel%20Service-FFFFFF?style=for-the-badge&logo=github&logoColor=white" 
-          alt="SSH Tunnel Service"
-        >
-      </a>
-    </td>
+  <!-- TILE 1: SSH Tunnel Service -->
+  <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-" target="_blank" style="text-decoration: none;">
+    <div style="
+      min-width: 260px;
+      padding: 18px 22px;
+      border-radius: 14px;
+      background: linear-gradient(135deg,#0057b8,#00a4ef);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    ">
+      <div style="font-size: 18px; font-weight: 700; color: #ffffff; margin-bottom: 10px;">
+        SSH Tunnel Service
+      </div>
+      <img 
+        src="https://img.shields.io/badge/Project-SSH%20Tunnel%20Service%20—%20Reverse%20SSH%20Port%20Forwarding%20(Windows)-003b6f?style=for-the-badge&logo=github&logoColor=white" 
+        alt="Project — SSH Tunnel Service — Reverse SSH Port Forwarding (Windows) Badge" 
+        style="height: auto; max-width: 100%; border-radius: 6px;"
+      >
+    </div>
+  </a>
 
-    <!-- TILE 2 -->
-    <td align="center" width="50%" bgcolor="#2D89EF">
-      <a href="https://github.com/michele-tn/SSH-appSettings-Configurator" target="_blank">
-        <img 
-          src="https://img.shields.io/badge/SSH%20Tunnel%20Config%20Editor-FFFFFF?style=for-the-badge&logo=github&logoColor=white" 
-          alt="SSH Tunnel Config Editor"
-        >
-      </a>
-    </td>
+  <!-- TILE 2: SSH Tunnel Config Editor -->
+  <a href="https://github.com/michele-tn/SSH-appSettings-Configurator" target="_blank" style="text-decoration: none;">
+    <div style="
+      min-width: 260px;
+      padding: 18px 22px;
+      border-radius: 14px;
+      background: linear-gradient(135deg,#0078d7,#00c853);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    ">
+      <div style="font-size: 18px; font-weight: 700; color: #ffffff; margin-bottom: 10px;">
+        SSH Tunnel Config Editor
+      </div>
+      <img 
+        src="https://img.shields.io/badge/Project-SSH%20Tunnel%20Config%20Editor-005b2f?style=for-the-badge&logo=github&logoColor=white" 
+        alt="SSH Tunnel Config Editor Badge" 
+        style="height: auto; max-width: 100%; border-radius: 6px;"
+      >
+    </div>
+  </a>
 
-  </tr>
-</table>
+</div>
 
 
 <!-- SSH TUNNEL CONFIG!!! - - - //  -->

@@ -39,49 +39,28 @@
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a><br/>  
 
-<!-- <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-" target="_blank" style="text-decoration: none;">
-  <img 
-    src="https://img.shields.io/badge/Project-SSH%20Tunnel%20Service%20%E2%80%94%20Reverse%20SSH%20Port%20Forwarding%20(Windows)-007ACC?style=for-the-badge&logo=github" 
-    alt="Project — SSH Tunnel Service — Reverse SSH Port Forwarding (Windows) Badge" 
-    style="
-      transition: transform 0.3s ease, box-shadow 0.3s ease; 
-      transform-origin: left; 
-      height: auto; 
-      border-radius: 6px; 
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);"
-    onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
-    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
-  >
-</a> --> <br/>
-
-<!-- SSH TUNNEL CONFIG!!!  + + + // -->
 <table>
   <tr>
-    <td>
-      <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-" target="_blank">
-        <img
-          src="https://github-readme-stats.vercel.app/api/pin/?username=michele-tn&repo=SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-&theme=tokyonight"
-          alt="SSH Tunnel Service — Reverse SSH Port Forwarding (Windows)">
+    <td align="center">
+      <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-">
+        <img src="https://img.shields.io/badge/SSH%20Tunnel%20Service-Windows-blue" />
       </a>
     </td>
-    <td>
-      <a href="https://github.com/michele-tn/SSH-appSettings-Configurator" target="_blank">
-        <img
-          src="https://github-readme-stats.vercel.app/api/pin/?username=michele-tn&repo=SSH-appSettings-Configurator&theme=tokyonight"
-          alt="SSH Tunnel Config Editor">
+    <td align="center">
+      <a href="https://github.com/michele-tn/SSH-appSettings-Configurator">
+        <img src="https://img.shields.io/badge/SSH%20Tunnel%20Config%20Editor-Configurator-blue" />
       </a>
     </td>
   </tr>
-</table>
-<!-- SSH TUNNEL CONFIG!!! - - - //  -->
 
-<!-- SUBLIST3R DIAGNOSTIC SCRIPTS!!!  + + + // -->
-<table><tr><td>
-<a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/gist?id=1334d8796d2c4e308f9da69d34db49b6&theme=tokyonight&show_owner=false&cache_seconds=10" alt="Sublist3r - Advanced Linux Diagnostic Scripts" style="max-width:100%;">
-</a>
-</td></tr></table>
-<!-- SUBLIST3R DIAGNOSTIC SCRIPTS!!! - - - // -->
+  <tr>
+    <td colspan="2" align="center">
+      <a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6">
+        <img src="https://img.shields.io/badge/Sublist3r-Linux%20Diagnostics-green" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <a href="https://github.com/michele-tn/Show-Localhost-Tunnels" target="_blank" style="text-decoration: none;">
   <img 

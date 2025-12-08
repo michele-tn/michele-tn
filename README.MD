@@ -38,7 +38,7 @@
     alt="SSH TUNNELS" 
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a><br/>  
-
+<br/><br/>
 = — — — — — — — — — — — — — — — — — — — — — =<br/>
 <table style="width:100%;">
   <tr>
@@ -63,9 +63,7 @@
   </tr>
 </table>
 = — — — — — — — — — — — — — — — — — — — — — =<br/>
-
-
-
+<br/><br/>
 <a href="https://github.com/michele-tn/Show-Localhost-Tunnels" target="_blank" style="text-decoration: none;">
   <img 
     src="https://img.shields.io/badge/Project-Show%20Localhost%20Tunnels%20(PowerShell%20Script)-0A66C2?style=for-the-badge&logo=github" 

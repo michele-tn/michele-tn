@@ -39,14 +39,15 @@
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a><br/>  
 
-<table>
+= — — — — — — — — — — — — — — — — — — — — — =
+<table style="width:100%;">
   <tr>
-    <td align="center">
+    <td align="center" width="50%">
       <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-">
         <img src="https://img.shields.io/badge/SSH%20Tunnel%20Service-Windows-blue" />
       </a>
     </td>
-    <td align="center">
+    <td align="center" width="50%">
       <a href="https://github.com/michele-tn/SSH-appSettings-Configurator">
         <img src="https://img.shields.io/badge/SSH%20Tunnel%20Config%20Editor-Configurator-blue" />
       </a>
@@ -54,13 +55,16 @@
   </tr>
 
   <tr>
-    <td colspan="2" align="center">
+    <td colspan="2" align="center" width="100%">
       <a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6">
         <img src="https://img.shields.io/badge/Sublist3r-Linux%20Diagnostics-green" />
       </a>
     </td>
-  </tr>
+  </tr>
 </table>
+= — — — — — — — — — — — — — — — — — — — — — =
+
+
 
 <a href="https://github.com/michele-tn/Show-Localhost-Tunnels" target="_blank" style="text-decoration: none;">
   <img 

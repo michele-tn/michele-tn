@@ -104,22 +104,7 @@
     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
 >
-</a><br/>
-<!-- 
-<a href="https://github.com/michele-tn/Secure-E-mail-Notifications-for-Fail2Ban-using-Gmail-SMTP-or-Gmail-API/blob/main/README.MD" target="_blank" style="text-decoration: none;">
-  <img 
-    src="https://img.shields.io/badge/Project-Secure%20Email%20Notifications%20for%20Fail2Ban%20(Gmail%20SMTP%20%2F%20API)%20%2B%20manage_fail2ban.sh%20(Version%203!)-D14836?style=for-the-badge&logo=github" 
-    alt="Secure Email Notifications for Fail2Ban using Gmail SMTP or Gmail API + manage_fail2ban.sh (Version 3!)" 
-    style="
-      transition: transform 0.3s ease, box-shadow 0.3s ease; 
-      transform-origin: left; 
-      height: auto; 
-      border-radius: 6px; 
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);"
-    onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
-    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
-  >
-</a> ✅ New Link Added -->
+</a>
 <br/>
 <!-- 🧩 GIST: RustDesk Portable Auto Downloader -->
 <a href="https://gist.github.com/michele-tn/3dd7b8c2f4c6a4e3c21fd4b5c7d40a6d" target="_blank">

@@ -44,14 +44,15 @@
   
   <tr>
     <td colspan="2" align="center" width="100%">
-    <a href="https://gist.github.com/michele-tn/6185f852f80297dec232b67ecad85c3e" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Secure%20Guest%20SFTP%20User%20on%20Ubuntu%2022.04.5-darkgreen?style=for-the-badge" 
-    alt="Secure Guest SFTP User on Ubuntu 22.04.5" 
-    style="transform: scale(2); transform-origin: left; height: auto;">
-</a> 
+      <a href="https://gist.github.com/michele-tn/6185f852f80297dec232b67ecad85c3e" target="_blank">
+        <img 
+          src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-Secure%20Guest%20SFTP%20User%20on%20Ubuntu%2022.04.5-darkgreen?style=for-the-badge" 
+          alt="Secure Guest SFTP User on Ubuntu 22.04.5" 
+          style="transform: scale(2); transform-origin: left; height: auto;">
+      </a> 
     </td>
   </tr>
+
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/michele-tn/SSH-Tunnel-Service-Reverse-SSH-Port-Forwarding-Windows-">
@@ -64,28 +65,53 @@
       </a>
     </td>
   </tr>
+
   <tr>
-  
-   <td colspan="2" align="center" width="100%">
-     <!-- ✅ New Link Added -->
-<a href="https://github.com/michele-tn/Secure-E-mail-Notifications-for-Fail2Ban-using-Gmail-SMTP-or-Gmail-API/blob/main/README.MD" target="_blank" style="text-decoration: none;">
-  <img 
-    src="https://img.shields.io/badge/Project-Secure%20Email%20Notifications%20for%20Fail2Ban%20(Gmail%20SMTP%20%2F%20API)%20%2B%20manage_fail2ban.sh%20(Version%203!)-D14836?style=for-the-badge&logo=github" 
-    alt="Secure Email Notifications for Fail2Ban using Gmail SMTP or Gmail API + manage_fail2ban.sh (Version 3!)" 
-    style="
-      transition: transform 0.3s ease, box-shadow 0.3s ease; 
-      transform-origin: left; 
-      height: auto; 
-      border-radius: 6px; 
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);"
-    onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
-    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
-  >
-</a>
-   </td>
+    <td colspan="2" align="center" width="100%">
+      <a href="https://github.com/michele-tn/Secure-E-mail-Notifications-for-Fail2Ban-using-Gmail-SMTP-or-Gmail-API/blob/main/README.MD" 
+         target="_blank" 
+         style="text-decoration: none;">
+        <img 
+          src="https://img.shields.io/badge/Project-Secure%20Email%20Notifications%20for%20Fail2Ban%20(Gmail%20SMTP%20%2F%20API)%20%2B%20manage_fail2ban.sh%20(Version%203!)-D14836?style=for-the-badge&logo=github" 
+          alt="Secure Email Notifications for Fail2Ban using Gmail SMTP or Gmail API + manage_fail2ban.sh (Version 3!)" 
+          style="
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            transform-origin: left; 
+            height: auto; 
+            border-radius: 6px; 
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);"
+          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
+          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
+        >
+      </a>
+    </td>
   </tr>
+
+  <!-- ✅ Sentinel Report Project -->
+  <tr>
+    <td colspan="2" align="center" width="100%">
+      <a href="https://github.com/michele-tn/Sentinel-Report?tab=readme-ov-file" 
+         target="_blank" 
+         style="text-decoration: none;">
+        <img 
+          src="https://img.shields.io/badge/Project-Sentinel%20Report%20(Linux%20Security%20Triage%20%7C%20HTML%20Incident%20Report)-2E3440?style=for-the-badge&logo=linux&logoColor=white" 
+          alt="Sentinel Report – Linux Security Triage & Incident Report"
+          style="
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transform-origin: center;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);"
+          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
+          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
+        >
+      </a>
+    </td>
+  </tr>
+
 </table>
 = — — — — — — — — — — — — — — — — — — — — — =<br/>
+
 <br/>
       <a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6">
         <img src="https://img.shields.io/badge/Sublist3r-Linux%20Diagnostics-green" />

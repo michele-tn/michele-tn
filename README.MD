@@ -105,7 +105,6 @@
     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
 >
 </a><br/>
-
 <!-- 
 <a href="https://github.com/michele-tn/Secure-E-mail-Notifications-for-Fail2Ban-using-Gmail-SMTP-or-Gmail-API/blob/main/README.MD" target="_blank" style="text-decoration: none;">
   <img 
@@ -121,7 +120,6 @@
     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
   >
 </a> ✅ New Link Added -->
-
 <br/>
 <!-- 🧩 GIST: RustDesk Portable Auto Downloader -->
 <a href="https://gist.github.com/michele-tn/3dd7b8c2f4c6a4e3c21fd4b5c7d40a6d" target="_blank">

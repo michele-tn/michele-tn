@@ -5,21 +5,13 @@
 </H1>
 
 <h2 align="left">
-  👉 <a href="https://michele-tn.github.io/T35T_Wh0IS/" style="color:#ff7c00; text-decoration:underline; font-weight:bold;">EXPLORE <span style="color:#0057b8;">WhoIS T35T</span></a><BR/><BR/>
-  🚀 <a href="https://gist.github.com/michele-tn/cb3ea408de612b897c2a5f6ede256a51" target="_blank" style="text-decoration: none;">
-  <img 
-    src="https://img.shields.io/badge/𝙂𝑰𝙎𝑻-DNS%20Speed%20Test%20Script-007ACC?style=for-the-badge&logo=github" 
-    alt="DNS Speed Test Script Badge" 
-    style="
-      transition: transform 0.3s ease, box-shadow 0.3s ease; 
-      transform-origin: left; 
-      height: auto; 
-      border-radius: 6px; 
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);"
-    onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
-    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"
-  >
-</a>
+
+| 🔥 PROJECT | 🚀 ACTION |
+|-----------|----------|
+| 🔎 **WhoIS T35T** | [![EXPLORE](https://img.shields.io/badge/EXPLORE-ff7c00?style=for-the-badge)](https://michele-tn.github.io/T35T_Wh0IS/) |
+| ⚡ **DNS Speed Test Script** | [![OPEN GIST](https://img.shields.io/badge/OPEN%20GIST-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://gist.github.com/michele-tn/cb3ea408de612b897c2a5f6ede256a51) |
+| 🧩 **DNS Configuration for IONOS VPS (Ubuntu Server)** | [![VIEW COMMENT](https://img.shields.io/badge/VIEW%20COMMENT-4CAF50?style=for-the-badge&logo=linux&logoColor=white)](https://gist.github.com/michele-tn/cb3ea408de612b897c2a5f6ede256a51?permalink_comment_id=5932892#gistcomment-5932892) |
+
 
 </h2><br/>
 

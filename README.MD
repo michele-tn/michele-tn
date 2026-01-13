@@ -132,6 +132,13 @@
     alt="RustDesk Portable Auto Downloader & Configurator (Windows x64)" 
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a><br/><br/>
+
+<p align="center">
+  <a href="https://github.com/VittGam/JSTMSimulator">
+    <img src="https://opengraph.githubassets.com/1/VittGam/JSTMSimulator" alt="JSTMSimulator" width="420">
+  </a>
+</p><br/><br/><br/>
+
 • • • • • • • • • • • • • • • • • • • • • • • • • •<br/>
 
 

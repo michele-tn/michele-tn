@@ -276,8 +276,13 @@ Not aware of the View or ViewModel.
 <table>
   <tr>
     <td>
-  <a href="https://github.com/zetanove/design-pattern">
+  <!-- <a href="https://github.com/zetanove/design-pattern">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=zetanove&repo=design-pattern&theme=tokyonight">
+  </a> -->
+<a href="https://github.com/zetanove/design-pattern">
+    <img src="https://opengraph.githubassets.com/1/zetanove/design-pattern"
+         alt="design-pattern"
+         width="420">
   </a>
 </td>
   </tr>
@@ -290,9 +295,14 @@ Not aware of the View or ViewModel.
 <table>
   <tr>
     <td>
-      <a href="https://github.com/ziishaned/learn-regex">
+      <!-- <a href="https://github.com/ziishaned/learn-regex">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=ziishaned&repo=learn-regex&theme=tokyonight">
-      </a>
+      </a> -->
+ <a href="https://github.com/ziishaned/learn-regex">
+    <img src="https://opengraph.githubassets.com/1/ziishaned/learn-regex"
+         alt="learn-regex"
+         width="420">
+  </a>
     </td>
     <td>
       <a href="https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html">

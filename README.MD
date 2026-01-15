@@ -3,6 +3,66 @@
 𝘾𝒐𝙢𝒑𝙪𝒕𝙚𝒓 𝒔𝙘𝒊𝙚𝒏𝙘𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝒖𝙩 𝙘𝒐𝙢𝒑𝙪𝒕𝙚𝒓𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝒚 𝒊𝙨 𝙖𝒃𝙤𝒖𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!<br/>
  <img src="./03052025.gif" width="50%" height: auto><br/><br/><div><span style="font-size:0.25em; font-weight:300; color:#888; display:block;">𝗘.𝗪. 𝗗𝗶𝗷𝗸𝘀𝘁𝗿𝗮 (𝟭𝟵𝟯𝟬–𝟮𝟬𝟬𝟮); 𝗧𝘂𝗿𝗶𝗻𝗴 𝗔𝘄𝗮𝗿𝗱 𝟭𝟵𝟳𝟮.</span></div><BR></H1><br/><br>
 
+## 🧠 About this space
+
+The GitHub profile **michele-tn** is a technical environment in continuous evolution, conceived as a **personal laboratory of ideas, notes, and conscious experimentation**.
+
+It is not simply a collection of repositories, but an **ecosystem of applied engineering thinking**, where theoretical concepts, real-world problems, and technical curiosity converge and evolve into:
+
+📦 **Working projects** focused on concrete problem solving  
+🛠️ **Automation scripts** designed to optimize processes and daily operations  
+📚 **Technical documentation** that is clear, reusable, and constantly refined  
+
+Every contribution is the result of analysis, study, and experimentation, with a single objective: **transforming knowledge into operational value**.
+
+This space does not only show *what* is being built, but above all *how* and *why*: an engineering, critical, and pragmatic approach in which code becomes a tool for understanding, not merely execution.
+
+---
+
+## ⚙️ What you will find here
+
+### 🛠 Automation & Tools
+- Bash & PowerShell automation scripts  
+- DNS testing utilities  
+- System and workflow optimizations  
+- RustDesk client management utilities  
+
+### 📚 Technical Documentation
+Markdown guides covering:
+- System configurations  
+- Networking fundamentals and troubleshooting  
+- Server deployment strategies  
+- SSH security and hardening  
+
+### 🧪 Study & Notes
+- Database normalization  
+- Cryptography fundamentals  
+- Software engineering concepts  
+
+### 📎 Gists
+Concise technical notes, experiments, and ready-to-use solutions.
+
+---
+
+## 🔍 Philosophy
+
+> Code is not just execution.  
+> Code is understanding.
+
+This repository space is a **living technical notebook** — a place where learning, testing, documenting, and sharing coexist as part of a single continuous process.
+
+Each project represents:
+- analysis  
+- experimentation  
+- refinement  
+- documentation  
+
+Learning is never archived.  
+It is **continuously engineered**.
+
+Here, every project is both a result and a step forward.
+
+
  <h2 align="left">
 
 | 🔥 GISTs/Projects | 🚀 URLs |

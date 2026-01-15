@@ -1,18 +1,15 @@
 •![Header](./github-header-image.png)<br><br>
 <H1 align="center">
 𝘾𝒐𝙢𝒑𝙪𝒕𝙚𝒓 𝒔𝙘𝒊𝙚𝒏𝙘𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝒖𝙩 𝙘𝒐𝙢𝒑𝙪𝒕𝙚𝒓𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝒚 𝒊𝙨 𝙖𝒃𝙤𝒖𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!<br/>
- <img src="./03052025.gif" width="50%" height: auto><br/><span style="font-size:0.25em; font-weight:300; color:#888; display:block;">𝗘.𝗪. 𝗗𝗶𝗷𝗸𝘀𝘁𝗿𝗮 (𝟭𝟵𝟯𝟬–𝟮𝟬𝟬𝟮); 𝗧𝘂𝗿𝗶𝗻𝗴 𝗔𝘄𝗮𝗿𝗱 𝟭𝟵𝟳𝟮.</span><BR></H1><br/><br>
- <h2 align="left">
+ <img src="./03052025.gif" width="50%" height: auto><br/><br/><span style="font-size:0.25em; font-weight:300; color:#888; display:block;">𝗘.𝗪. 𝗗𝗶𝗷𝗸𝘀𝘁𝗿𝗮 (𝟭𝟵𝟯𝟬–𝟮𝟬𝟬𝟮); 𝗧𝘂𝗿𝗶𝗻𝗴 𝗔𝘄𝗮𝗿𝗱 𝟭𝟵𝟳𝟮.</span><BR></H1><br/><br>
 
+ <h2 align="left">
 | 🔥 GISTs/Projects | 🚀 URLs |
 |-----------|----------|
 | 🔎 **WhoIS T35T** | [![EXPLORE](https://img.shields.io/badge/EXPLORE-ff7c00?style=for-the-badge)](https://michele-tn.github.io/T35T_Wh0IS/) |
 | ⚡ **DNS Speed Test Script** | [![OPEN GIST](https://img.shields.io/badge/OPEN%20GIST-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://gist.github.com/michele-tn/cb3ea408de612b897c2a5f6ede256a51) |
 | 🧩 **DNS Configuration for IONOS VPS (Ubuntu Server)** | [![VIEW COMMENT](https://img.shields.io/badge/VIEW%20COMMENT-4CAF50?style=for-the-badge&logo=linux&logoColor=white)](https://gist.github.com/michele-tn/cb3ea408de612b897c2a5f6ede256a51?permalink_comment_id=5932892#gistcomment-5932892) |
 | 📦 **Setup DNS IONOS Script** | [![OPEN GIST](https://img.shields.io/badge/OPEN%20GIST-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://gist.github.com/michele-tn/3a6eac5b927486d8cb9405f2ce66a370) |
-
-
-
 </h2><br/>
 
 ### 🔥 Useful Gists & Repository!

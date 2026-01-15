@@ -1,7 +1,7 @@
 •![Header](./github-header-image.png)<br><br>
 <H1 align="center">
 𝘾𝒐𝙢𝒑𝙪𝒕𝙚𝒓 𝒔𝙘𝒊𝙚𝒏𝙘𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝒖𝙩 𝙘𝒐𝙢𝒑𝙪𝒕𝙚𝒓𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝒚 𝒊𝙨 𝙖𝒃𝙤𝒖𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!<br/>
- <img src="./03052025.gif" width="50%" height: auto><br/><span style="font-size:0.45em; font-weight:400; display:block; margin-top:4px;">𝗘.𝗪. 𝗗𝗶𝗷𝗸𝘀𝘁𝗿𝗮 (𝟭𝟵𝟯𝟬–𝟮𝟬𝟬𝟮); 𝗧𝘂𝗿𝗶𝗻𝗴 𝗔𝘄𝗮𝗿𝗱 𝟭𝟵𝟳𝟮.</span><BR>/</H1><br/><br>
+ <img src="./03052025.gif" width="50%" height: auto><br/><span style="font-size:0.25em; font-weight:300; color:#888; display:block;">𝗘.𝗪. 𝗗𝗶𝗷𝗸𝘀𝘁𝗿𝗮 (𝟭𝟵𝟯𝟬–𝟮𝟬𝟬𝟮); 𝗧𝘂𝗿𝗶𝗻𝗴 𝗔𝘄𝗮𝗿𝗱 𝟭𝟵𝟳𝟮.</span><BR></H1><br/><br>
  <h2 align="left">
 
 | 🔥 GISTs/Projects | 🚀 URLs |

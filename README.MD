@@ -59,12 +59,14 @@ Each project represents:
 
 Learning is never archived.  
 It is **continuously engineered**.
+
 `
 Here, every project is both a result and a step forward.
 `
 
 ---
 ---
+
  <h2 align="left">
 
 | 🔥 GISTs/Projects | 🚀 URLs |

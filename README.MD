@@ -195,7 +195,7 @@ Here, every project is both a result and a step forward.
     style="transform: scale(2); transform-origin: left; height: auto;">
 </a><br/><br/>
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/VittGam/JSTMSimulator">
     <img src="https://opengraph.githubassets.com/1/VittGam/JSTMSimulator" alt="JSTMSimulator" width="420">
   </a>

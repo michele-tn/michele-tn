@@ -5,9 +5,9 @@
 <!-- <div><span style="font-size:0.25em; font-weight:300; color:#888; display:block;">𝗘.𝗪. 𝗗𝗶𝗷𝗸𝘀𝘁𝗿𝗮 (𝟭𝟵𝟯𝟬–𝟮𝟬𝟬𝟮); 𝗧𝘂𝗿𝗶𝗻𝗴 𝗔𝘄𝗮𝗿𝗱 𝟭𝟵𝟳𝟮.</span></div>
      img src="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg" 
 -->
-<img src="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg" 
+<a href="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg"><img src="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg" 
      alt="Descrizione dell'immagine" 
-     height="16" width="auto">
+     height="16" width="auto"></a>
 </H1><br/>
 
 ## 🧠 About this space

@@ -83,7 +83,10 @@ Here, every project is both a result and a step forward.
 | 🧩 **DNS Configuration for IONOS VPS (Ubuntu Server)** | [![VIEW COMMENT](https://img.shields.io/badge/VIEW%20COMMENT-4CAF50?style=for-the-badge&logo=linux&logoColor=white)](https://gist.github.com/michele-tn/cb3ea408de612b897c2a5f6ede256a51?permalink_comment_id=5932892#gistcomment-5932892) |
 | 📦 **Setup DNS IONOS Script** | [![OPEN GIST](https://img.shields.io/badge/OPEN%20GIST-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://gist.github.com/michele-tn/3a6eac5b927486d8cb9405f2ce66a370) |
 
-</h2><br/>
+</h2>
+
+---
+---
 
 ### 🔥 Useful Gists & Repository!
 <div style="display: flex; flex-direction: column; gap: 40px; align-items: flex-start; justify-content: center;">
@@ -111,8 +114,6 @@ Here, every project is both a result and a step forward.
   <img src="https://img.shields.io/badge/v2rayN%2BSS%2BTUN-Gist-blue?style=for-the-badge" alt="v2rayN + Shadowsocks + TUN (Sing-box) Gist">
 </a>
 
----
-
 ## 📌 Quick Overview of the Gists
 
 | Gist | Description |
@@ -121,6 +122,8 @@ Here, every project is both a result and a step forward.
 | SSH TUNNELS | Generic notes collected from the web about SSH tunnels |
 | v2rayN + Shadowsocks + TUN (Sing-box) | VPN tunneling and proxy management using Sing-box |
 
+---
+---
 
 = — — — — — — — — — — — — — — — — — — — — — =<br/>
 <table style="width:100%;">

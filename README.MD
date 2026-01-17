@@ -88,18 +88,14 @@ Here, every project is both a result and a step forward.
 ### 🔥 Useful Gists & Repository!
 <div style="display: flex; flex-direction: column; gap: 40px; align-items: flex-start; justify-content: center;">
 
-<p align="left">
-  <a href="https://gist.github.com/michele-tn/d60835f333d00e9172d4705957fd2e8a">
+<p align="left"><a href="https://gist.github.com/michele-tn/d60835f333d00e9172d4705957fd2e8a">
     <img src="https://img.shields.io/badge/XZ9--COMPRESSOR-Gist-blue?style=flat-square" alt="XZ9-COMPRESSOR Gist" width="220">
-  </a> &bnsp;
-  <a href="https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7" target="_blank">
+  </a> — <a href="https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7" target="_blank">
   <img 
     src="https://img.shields.io/badge/SSH%20TUNNELS-𝙂𝑰𝙎𝑻-blue?style=for-the-badge" 
     alt="SSH TUNNELS GIST" 
     style="transform: scale(6); transform-origin: left; height: auto;">
-</a>
-</p><br/>
-<br>
+</a></p><br/><br>
 
 <!-- <a href="https://gist.github.com/michele-tn/59ea8f7db8fa810ca3c6c552fab225e7" target="_blank">
   <img 

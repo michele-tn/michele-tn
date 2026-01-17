@@ -125,9 +125,10 @@ Here, every project is both a result and a step forward.
 ---
 ---
 
+<p align="center">= — — — — — — — — — — — — — — — — — — — — — =</p><br/>
+
 <table style="width:100%;">
 
-= — — — — — — — — — — — — — — — — — — — — — =<br/>
   <tr>
     <td colspan="2" align="center" width="100%">
       <a href="https://gist.github.com/michele-tn/6185f852f80297dec232b67ecad85c3e" target="_blank">
@@ -195,8 +196,9 @@ Here, every project is both a result and a step forward.
     </td>
   </tr>
 
-= — — — — — — — — — — — — — — — — — — — — — =<br/>
 </table>
+
+<p align="center">= — — — — — — — — — — — — — — — — — — — — — =</p><br/>
 
 <br/>
       <a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6">

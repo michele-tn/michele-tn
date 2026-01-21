@@ -11,7 +11,9 @@
 </H1><br/>
 
 ## 🧠 About this space
-
+<a href="[https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg](https://raw.githubusercontent.com/michele-tn/michele-tn/refs/heads/main/MiCH43L_T%CF%80_2.svg)"><img src="https://raw.githubusercontent.com/michele-tn/michele-tn/refs/heads/main/MiCH43L_T%CF%80_2.svg" 
+     alt="Descrizione dell'immagine" 
+     height="25" width="auto"></a><br>
 The GitHub profile **michele-tn** is a technical environment in continuous evolution, conceived as a **personal laboratory of ideas, notes, and conscious experimentation**.
 
 It is not simply a collection of repositories, but an **ecosystem of applied engineering thinking**, where theoretical concepts, real-world problems, and technical curiosity converge and evolve into:

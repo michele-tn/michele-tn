@@ -236,12 +236,12 @@ Here, every project is both a result and a step forward.
   <a href="https://github.com/VittGam/JSTMSimulator">
     <img src="https://opengraph.githubassets.com/1/VittGam/JSTMSimulator" alt="JSTMSimulator" width="420">
   </a>
-</p><br/><br/>
+</p><br/>
 <p align="left">
   <a href="https://github.com/antoniomika/sish">
     <img src="https://opengraph.githubassets.com/1/antoniomika/sish" alt="sish" width="420">
   </a>
-</p><br/><br/><br/>
+</p><br/><br/>
 
 • • • • • • • • • • • • • • • • • • • • • • • • • •<br/>
 

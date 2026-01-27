@@ -248,8 +248,8 @@ Here, every project is both a result and a step forward.
   <tr>
     <td>
       <p align="left">
-        <a href="https://gist.github.com/michele-tn/554935b638b47d160fa15483d1833e7f">
-          <img src="https://opengraph.githubassets.com/1/michele-tn/554935b638b47d160fa15483d1833e7f"
+        <a href="https://gist.github.com/michele-tn/4418155343e8ea6a1bd08c666758513c">
+          <img src="https://opengraph.githubassets.com/1/michele-tn/4418155343e8ea6a1bd08c666758513c"
                alt="Ubuntu Cleanup Script (Safe / Aggressive Modes)"
                width="420">
         </a>

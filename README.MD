@@ -244,7 +244,7 @@ Here, every project is both a result and a step forward.
 </p><br/>
 
 <!-- Ubuntu Cleanup Script (Safe / Aggressive Modes)   ############## -->
-<table>
+<!-- <table>
   <tr>
     <td>
       <p align="left">
@@ -262,7 +262,16 @@ Here, every project is both a result and a step forward.
       Designed for <strong>Ubuntu 22.04 (Jammy)</strong>, VPS, cloud instances, and disk-constrained environments.
     </td>
   </tr>
-</table>
+</table> -->
+
+<p align="left">
+  <a href="https://gist.github.com/michele-tn/4418155343e8ea6a1bd08c666758513c">
+    <img src="https://raw.githubusercontent.com/michele-tn/michele-tn/main/UbuntuCL34nUp5cr1pt.svg"
+         alt="Ubuntu Cleanup Script (Safe / Aggressive Modes)"
+         width="700">
+  </a>
+</p>
+
 <!-- Ubuntu Cleanup Script (Safe / Aggressive Modes)   ############## -->
 <br/><br/>
 

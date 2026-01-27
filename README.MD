@@ -241,7 +241,30 @@ Here, every project is both a result and a step forward.
   <a href="https://github.com/antoniomika/sish">
     <img src="https://opengraph.githubassets.com/1/antoniomika/sish" alt="sish" width="420">
   </a>
-</p><br/><br/>
+</p><br/>
+
+<!-- Ubuntu Cleanup Script (Safe / Aggressive Modes)   ############## -->
+<table>
+  <tr>
+    <td>
+      <p align="left">
+        <a href="https://gist.github.com/michele-tn/554935b638b47d160fa15483d1833e7f">
+          <img src="https://opengraph.githubassets.com/1/michele-tn/554935b638b47d160fa15483d1833e7f"
+               alt="Ubuntu Cleanup Script (Safe / Aggressive Modes)"
+               width="420">
+        </a>
+      </p>
+      <strong>Ubuntu Cleanup Script (Safe / Aggressive Modes)</strong><br/>
+      Bash script for deep Ubuntu system cleanup with an interactive safety prompt.
+      Supports <strong>Safe</strong> and <strong>Aggressive</strong> profiles to balance disk recovery and log preservation.
+      Removes Snap permanently, purges leftover kernels, optimizes APT behavior, vacuums journald logs,
+      and optionally runs BleachBit with shredding.
+      Designed for <strong>Ubuntu 22.04 (Jammy)</strong>, VPS, cloud instances, and disk-constrained environments.
+    </td>
+  </tr>
+</table>
+<!-- Ubuntu Cleanup Script (Safe / Aggressive Modes)   ############## -->
+<br/><br/>
 
 • • • • • • • • • • • • • • • • • • • • • • • • • •<br/>
 

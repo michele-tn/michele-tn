@@ -273,6 +273,13 @@ Here, every project is both a result and a step forward.
 </p>
 
 <!-- Ubuntu Cleanup Script (Safe / Aggressive Modes)   ############## -->
+<br/>
+**GitHub Gist** — Bash script for RustDesk server connection management.
+
+> `kill_hbbs_hbbr_connections.sh` is a Bash script designed to terminate active network connections on specific RustDesk server ports without stopping or killing the RustDesk server processes (hbbs and hbbr).
+
+[![GitHub Gist](https://img.shields.io/badge/GitHub-Gist-success?logo=github)](https://gist.github.com/michele-tn/55ae202742d52d7616f521c22be24d55)
+
 <br/><br/>
 
 • • • • • • • • • • • • • • • • • • • • • • • • • •<br/>

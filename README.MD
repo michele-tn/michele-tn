@@ -266,12 +266,13 @@ Here, every project is both a result and a step forward.
 
 <p align="left">
   <a href="https://github.com/michele-tn/sing-box-TUN-Controller-PowerShell-GUI-Shadowsocks-VPN-like-Connector-for-Windows" target="_blank">
-  <img 
-    src="https://raw.githubusercontent.com/michele-tn/sing-box-TUN-Controller-PowerShell-GUI-Shadowsocks-VPN-like-Connector-for-Windows/main/sing-box%20TUN%20Controller.svg" 
-    alt="sing-box TUN Controller"
-    style="transform: scale(0.6); transform-origin: left top; height: auto;">
-</a>
+    <img 
+      src="https://raw.githubusercontent.com/michele-tn/sing-box-TUN-Controller-PowerShell-GUI-Shadowsocks-VPN-like-Connector-for-Windows/main/sing-box%20TUN%20Controller.svg" 
+      alt="sing-box TUN Controller"
+      style="transform: scale(0.55); transform-origin: left top; height: auto;">
+  </a>
 </p>
+
 
 <p align="left">
   <a href="https://gist.github.com/michele-tn/4418155343e8ea6a1bd08c666758513c">

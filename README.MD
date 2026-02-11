@@ -282,6 +282,15 @@ Here, every project is both a result and a step forward.
   </a>
 </p>
 
+<p align="left">
+  <a href="https://raw.githubusercontent.com/michele-tn/Computational-and-Mathematical-Foundations-of-Artificial-Intelligence/refs/heads/main/ai-foundations-badge.svg" target="_blank">
+    <img src="https://raw.githubusercontent.com/michele-tn/Computational-and-Mathematical-Foundations-of-Artificial-Intelligence/refs/heads/main/ai-foundations-badge.svg"
+         alt="AI Foundations Badge"
+         width="70%">
+  </a>
+</p>
+
+
 <!-- Ubuntu Cleanup Script (Safe / Aggressive Modes)   ############## -->
 <br/>
 𝑮𝙞𝒕𝙃𝒖𝙗 𝙂𝒊𝙨𝒕 — Bash script for RustDesk server connection management.

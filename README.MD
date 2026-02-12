@@ -283,7 +283,7 @@ Here, every project is both a result and a step forward.
 </p>
 
 <p align="left">
-  <a href="https://github.com/michele-tn/Computational-and-Mathematical-Foundations-of-Artificial-Intelligence/blob/main/ai-foundations-badge.svg" target="_blank">
+  <a href="https://raw.githubusercontent.com/michele-tn/Computational-and-Mathematical-Foundations-of-Artificial-Intelligence/8924bc9a18753ec347f63da59d42fa32774e6251/ai-foundations-badge.svg" target="_blank">
     <img src="https://github.com/michele-tn/Computational-and-Mathematical-Foundations-of-Artificial-Intelligence/blob/main/ai-foundations-badge.svg"
          alt="AI Foundations Badge"
          width="80%">

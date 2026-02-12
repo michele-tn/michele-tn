@@ -286,7 +286,7 @@ Here, every project is both a result and a step forward.
   <a href="https://raw.githubusercontent.com/michele-tn/Computational-and-Mathematical-Foundations-of-Artificial-Intelligence/refs/heads/main/ai-foundations-badge.svg" target="_blank">
     <img src="https://raw.githubusercontent.com/michele-tn/Computational-and-Mathematical-Foundations-of-Artificial-Intelligence/refs/heads/main/ai-foundations-badge.svg"
          alt="AI Foundations Badge"
-         width="70%">
+         width="80%">
   </a>
 </p>
 

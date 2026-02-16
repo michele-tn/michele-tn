@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>michele-tn · Technical Lab</title>
+  <meta name="description" content="Tools, scripts, documentation, experiments — engineered learning." />
+
+  <!-- Fonts / Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Material Web (MD3) -->
+  <script type="module">
+    import 'https://unpkg.com/@material/web/button/filled-tonal-button.js?module';
+    import 'https://unpkg.com/@material/web/button/outlined-button.js?module';
+    import 'https://unpkg.com/@material/web/divider/divider.js?module';
+  </script>
+
+  <style>
+    :root{
+      color-scheme: dark;
+
+      --bg0:#06080E;
+      --bg1:#0A0F18;
+
+      --text:#EAF1FF;
+      --muted:#A6B2C6;
+
+      --surface: rgba(14, 18, 28, .72);
+      --surface2: rgba(12, 16, 25, .62);
+      --surface3: rgba(10, 14, 22, .52);
+
+      --outline: rgba(255,255,255,.12);
+      --outline2: rgba(255,255,255,.08);
+      --outline3: rgba(255,255,255,.06);
+
+      --shadow: 0 24px 70px rgba(0,0,0,.58);
+      --shadow2: 0 14px 36px rgba(0,0,0,.38);
+
+      --radius: 18px;
+      --radius2: 22px;
+      --max: 1140px;
+
+      --accentA: rgba(140,170,255,.22);
+      --accentB: rgba(120,255,210,.14);
+      --accentC: rgba(190,140,255,.14);
+    }
+
+    *{ box-sizing:border-box; }
+    html, body { height: 100%; }
+    html { background: linear-gradient(180deg, var(--bg0), var(--bg1)); }
+
+    body{
+      margin:0;
+      font-family: Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+      color: var(--text);
+
+      /* premium continuous background */
+      background:
+        radial-gradient(1200px 780px at 18% -12%, rgba(140,170,255,.20), transparent 60%),
+        radial-gradient(900px 680px at 108% 18%, rgba(120,255,210,.14), transparent 62%),
+        radial-gradient(900px 720px at 24% 118%, rgba(190,140,255,.12), transparent 66%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+      background-attachment: fixed, fixed, fixed, fixed;
+      overflow-x:hidden;
+    }
+
+    /* subtle noise + vignette (no hard masks -> no white gaps) */
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      background:
+        radial-gradient(900px 600px at 50% 10%, rgba(0,0,0,.25), transparent 55%),
+        radial-gradient(900px 700px at 50% 120%, rgba(0,0,0,.35), transparent 60%);
+      opacity:.9;
+      z-index:0;
+    }
+    body::after{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      opacity:.08;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
+      mix-blend-mode: overlay;
+      z-index:0;
+    }
+
+    .wrap{
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+      padding: 18px 0 52px;
+      position:relative;
+      z-index:1;
+    }
+
+    /* Sticky topbar with blur */
+    .topbar{
+      position: sticky;
+      top: 12px;
+      z-index: 10;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      padding: 10px 12px;
+      border-radius: 16px;
+      background: rgba(10, 14, 22, .38);
+      border: 1px solid rgba(255,255,255,.08);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 10px 28px rgba(0,0,0,.28);
+      margin-bottom: 14px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      min-width:0;
+    }
+    .spark{
+      width:44px; height:44px;
+      border-radius: 14px;
+      display:grid; place-items:center;
+      background: linear-gradient(135deg, var(--accentA), var(--accentB));
+      border: 1px solid var(--outline2);
+      box-shadow: 0 10px 22px rgba(0,0,0,.30);
+      flex: 0 0 auto;
+    }
+    .spark .material-symbols-rounded{ font-size:22px; opacity:.95; }
+    .brand h1{
+      margin:0;
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing:.2px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .brand p{
+      margin:0;
+      font-size: 12.5px;
+      color: var(--muted);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .nav{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+
+    /* Hero */
+    .hero{
+      border-radius: var(--radius2);
+      background: linear-gradient(180deg, rgba(255,255,255,.075), rgba(255,255,255,.028));
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      position:relative;
+    }
+    .hero::before{
+      content:"";
+      position:absolute;
+      inset:-1px;
+      pointer-events:none;
+      background:
+        radial-gradient(980px 320px at 18% 0%, rgba(140,170,255,.18), transparent 60%),
+        radial-gradient(840px 360px at 105% 18%, rgba(120,255,210,.13), transparent 62%),
+        radial-gradient(760px 420px at 6% 120%, rgba(190,140,255,.12), transparent 62%);
+      opacity: .95;
+    }
+    .hero::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,.40), rgba(0,0,0,.08) 48%, rgba(0,0,0,.22));
+      opacity:.70;
+    }
+    .heroInner{
+      position:relative;
+      z-index:1;
+      padding: 24px;
+      display:grid;
+      grid-template-columns: 1.35fr .65fr;
+      gap:16px;
+      align-items:stretch;
+    }
+
+    .quoteTitle{
+      margin:0;
+      font-size: 34px;
+      line-height: 1.08;
+      letter-spacing: .2px;
+      font-weight: 800;
+      color: rgba(234,241,255,.95);
+      text-shadow: 0 18px 60px rgba(0,0,0,.55);
+    }
+
+    .quoteMeta{
+      margin-top: 10px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .metaPill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: rgba(0,0,0,.22);
+      border: 1px solid rgba(255,255,255,.10);
+      backdrop-filter: blur(10px);
+      white-space:nowrap;
+    }
+    .metaPill .material-symbols-rounded{ font-size:18px; opacity:.9; }
+
+    .sub{
+      margin: 10px 0 0;
+      color: rgba(166,178,198,.95);
+      font-size: 14.7px;
+      line-height: 1.68;
+      max-width: 72ch;
+    }
+
+    /* Chips */
+    .chips{
+      margin-top: 14px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: rgba(12,16,25,.46);
+      border: 1px solid rgba(255,255,255,.10);
+      color: rgba(234,241,255,.92);
+      font-size: 13px;
+      line-height: 1;
+      white-space:nowrap;
+      transition: transform .12s ease, background .12s ease, border-color .12s ease;
+    }
+    .chip:hover{
+      transform: translateY(-1px);
+      background: rgba(12,16,25,.58);
+      border-color: rgba(255,255,255,.16);
+    }
+    .chip .material-symbols-rounded{ font-size:18px; opacity:.85; }
+
+    .heroSide{
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      justify-content:space-between;
+      min-width:0;
+    }
+
+    .profile{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding: 12px;
+      border-radius: 16px;
+      background: rgba(12,16,25,.52);
+      border: 1px solid rgba(255,255,255,.08);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 22px rgba(0,0,0,.28);
+    }
+    .avatar{
+      width:56px; height:56px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,.12);
+      overflow:hidden;
+      flex: 0 0 auto;
+      background: #0a0f14;
+    }
+    .avatar img{ width:100%; height:100%; object-fit:cover; display:block; }
+    .who{ min-width:0; }
+    .who .name{ margin:0; font-weight: 800; font-size: 14.5px; }
+    .who .meta{ margin:2px 0 0; font-size: 12.5px; color: var(--muted); }
+
+    /* Media card: better visuals + hover zoom */
+    .mediaCard{
+      border-radius: 18px;
+      background: rgba(12,16,25,.52);
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: 0 12px 26px rgba(0,0,0,.30);
+      overflow:hidden;
+    }
+    .mediaCardHead{
+      padding: 12px 12px 10px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+    .mediaCardHead .left{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width:0;
+    }
+    .mediaCardHead .label{
+      font-weight:800;
+      font-size: 13.5px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      color: rgba(234,241,255,.92);
+    }
+
+    .mediaGrid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:10px;
+      padding: 12px;
+    }
+
+    .imgFrame{
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(0,0,0,.18);
+      overflow:hidden;
+      box-shadow: 0 12px 26px rgba(0,0,0,.34);
+      position:relative;
+    }
+    .imgFrame::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      background: linear-gradient(180deg, rgba(0,0,0,.0), rgba(0,0,0,.35));
+      opacity:.9;
+    }
+    .imgFrame img{
+      width:100%;
+      display:block;
+      transform: scale(1.01);
+      transition: transform .25s ease;
+    }
+    .imgFrame:hover img{ transform: scale(1.05); }
+
+    .imgFrame img.gif{
+      height: 170px;
+      object-fit: cover;
+    }
+
+    .badgeFrame{
+      padding: 12px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background: rgba(0,0,0,.12);
+    }
+    .badgeFrame img.svgBadge{
+      height: 22px;
+      width:auto;
+      opacity: .98;
+      image-rendering: -webkit-optimize-contrast;
+      transform: translateZ(0);
+    }
+
+    .heroActions{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+
+    /* Sections */
+    .grid{
+      margin-top: 16px;
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 14px;
+    }
+
+    .card{
+      grid-column: span 6;
+      border-radius: var(--radius);
+      background: var(--surface);
+      border: 1px solid var(--outline3);
+      box-shadow: var(--shadow2);
+      padding: 16px;
+      backdrop-filter: blur(12px);
+      min-width: 0;
+      transition: transform .14s ease, border-color .14s ease, background .14s ease;
+    }
+    .card:hover{
+      transform: translateY(-2px);
+      border-color: rgba(255,255,255,.12);
+      background: rgba(14, 18, 28, .78);
+    }
+    .card.wide{ grid-column: span 12; }
+
+    .card h2{
+      margin: 0 0 10px;
+      font-size: 13px;
+      letter-spacing: .26px;
+      text-transform: uppercase;
+      color: rgba(231,240,251,.88);
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .card h2 .material-symbols-rounded{ font-size:18px; opacity:.9; }
+
+    .list{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+
+    .item{
+      display:flex;
+      gap:12px;
+      padding: 12px;
+      border-radius: 16px;
+      background: rgba(10,14,22,.45);
+      border: 1px solid rgba(255,255,255,.08);
+      transition: transform .12s ease, border-color .12s ease, background .12s ease;
+      min-width: 0;
+    }
+    .item:hover{
+      transform: translateY(-2px);
+      border-color: rgba(255,255,255,.15);
+      background: rgba(10,14,22,.58);
+    }
+
+    .ico{
+      width:40px; height:40px;
+      border-radius: 14px;
+      display:grid; place-items:center;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.04);
+      flex: 0 0 auto;
+    }
+    .ico .material-symbols-rounded{ font-size: 20px; opacity: .9; }
+
+    .content{ min-width:0; flex: 1 1 auto; }
+    .content .t{
+      margin:0;
+      font-weight: 800;
+      font-size: 14.5px;
+      letter-spacing:.2px;
+    }
+    .content .d{
+      margin: 3px 0 0;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .linkrow{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:flex-end;
+      flex: 0 0 auto;
+    }
+
+    .quickGrid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 10px;
+    }
+    .quick{
+      grid-column: span 6;
+      padding: 12px;
+      border-radius: 16px;
+      background: rgba(10,14,22,.45);
+      border: 1px solid rgba(255,255,255,.08);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      min-width:0;
+      transition: transform .12s ease, border-color .12s ease, background .12s ease;
+    }
+    .quick:hover{
+      transform: translateY(-2px);
+      border-color: rgba(255,255,255,.15);
+      background: rgba(10,14,22,.58);
+    }
+    .quick .left{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width:0;
+    }
+    .quick .label{
+      font-weight: 800;
+      font-size: 13.8px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+    a{ color: inherit; text-decoration: none; }
+
+    @media (max-width: 960px){
+      .heroInner{ grid-template-columns: 1fr; }
+      .heroActions{ justify-content:flex-start; }
+      .card{ grid-column: span 12; }
+      .quick{ grid-column: span 12; }
+      .imgFrame img.gif{ height: 200px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- Sticky Topbar -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="spark"><span class="material-symbols-rounded">terminal</span></div>
+        <div style="min-width:0">
+          <h1>michele-tn</h1>
+          <p>Automation · Networking · Hardening · Notes</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Top navigation">
+        <a href="https://github.com/michele-tn" target="_blank" rel="noreferrer">
+          <md-outlined-button>
+            <span class="material-symbols-rounded" slot="icon">code</span>
+            GitHub
+          </md-outlined-button>
+        </a>
+        <a href="https://gist.github.com/michele-tn" target="_blank" rel="noreferrer">
+          <md-outlined-button>
+            <span class="material-symbols-rounded" slot="icon">snippet_folder</span>
+            Gists
+          </md-outlined-button>
+        </a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero">
+      <div class="heroInner">
+
+        <div>
+          <h2 class="quoteTitle">
+            𝘾𝒐𝙢𝒑𝙪𝒕𝙚𝒓 𝒔𝙘𝒊𝙚𝒏𝙘𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝒖𝙩 𝙘𝒐𝙢𝒑𝙪𝒕𝙚𝒓𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝒚 𝒊𝙨 𝙖𝒃𝙤𝒖𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!
+          </h2>
+
+          <div class="quoteMeta">
+            <span class="metaPill">
+              <span class="material-symbols-rounded">workspace_premium</span>
+              E. W. Dijkstra (1930–2002) · Turing Award (1972)
+            </span>
+          </div>
+
+          <p class="sub">
+            A living technical notebook where ideas become scripts, tools, and documentation.
+            Built around analysis → experimentation → refinement → documentation.
+          </p>
+
+          <div class="chips" aria-label="Topics">
+            <span class="chip"><span class="material-symbols-rounded">terminal</span>Bash / PowerShell</span>
+            <span class="chip"><span class="material-symbols-rounded">speed</span>DNS Testing</span>
+            <span class="chip"><span class="material-symbols-rounded">shield_lock</span>Linux Hardening</span>
+            <span class="chip"><span class="material-symbols-rounded">menu_book</span>Study Notes</span>
+          </div>
+        </div>
+
+        <aside class="heroSide" aria-label="Profile & media">
+          <div class="profile">
+            <div class="avatar">
+              <img src="https://github.com/michele-tn.png?size=200" alt="michele-tn avatar" />
+            </div>
+            <div class="who">
+              <p class="name">@michele-tn</p>
+              <p class="meta">Tools, guides, experiments — shipped.</p>
+            </div>
+          </div>
+
+          <!-- ONE clean media card -->
+          <div class="mediaCard" aria-label="Media">
+            <div class="mediaCardHead">
+              <div class="left">
+                <span class="material-symbols-rounded">image</span>
+                <div class="label">Highlights</div>
+              </div>
+            </div>
+
+            <div class="mediaGrid">
+              <div class="imgFrame" title="Header animation">
+                <img class="gif" src="./03052025.gif" alt="Header animation" />
+              </div>
+
+              <div class="imgFrame badgeFrame" title="Badge">
+                <a href="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg" target="_blank" rel="noreferrer">
+                  <img class="svgBadge" src="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg" alt="SVG badge" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="heroActions">
+            <a href="https://michele-tn.github.io/" target="_blank" rel="noreferrer">
+              <md-filled-tonal-button>
+                <span class="material-symbols-rounded" slot="icon">public</span>
+                GitHub Pages
+              </md-filled-tonal-button>
+            </a>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <div class="grid">
+
+      <section class="card wide" aria-label="Quick links">
+        <h2><span class="material-symbols-rounded">rocket_launch</span> Quick links</h2>
+
+        <div class="quickGrid">
+          <div class="quick">
+            <div class="left">
+              <span class="material-symbols-rounded">travel_explore</span>
+              <div class="label">WhoIS T35T</div>
+            </div>
+            <div class="right">
+              <a href="https://michele-tn.github.io/T35T_Wh0IS/" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Explore</md-outlined-button>
+              </a>
+            </div>
+          </div>
+
+          <div class="quick">
+            <div class="left">
+              <span class="material-symbols-rounded">speed</span>
+              <div class="label">DNS Speed Test Script</div>
+            </div>
+            <div class="right">
+              <a href="https://gist.github.com/michele-tn/cb3ea408de612b897c2a5f6ede256a51" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open Gist</md-outlined-button>
+              </a>
+            </div>
+          </div>
+
+          <div class="quick">
+            <div class="left">
+              <span class="material-symbols-rounded">dns</span>
+              <div class="label">DNS Configuration for IONOS VPS (Ubuntu)</div>
+            </div>
+            <div class="right">
+              <a href="https://gist.github.com/michele-tn/cb3ea408de612b897c2a5f6ede256a51?permalink_comment_id=5932892#gistcomment-5932892" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">comment</span>View Comment</md-outlined-button>
+              </a>
+            </div>
+          </div>
+
+          <div class="quick">
+            <div class="left">
+              <span class="material-symbols-rounded">package_2</span>
+              <div class="label">Setup DNS IONOS Script</div>
+            </div>
+            <div class="right">
+              <a href="https://gist.github.com/michele-tn/3a6eac5b927486d8cb9405f2ce66a370" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open Gist</md-outlined-button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card wide" aria-label="Featured">
+        <h2><span class="material-symbols-rounded">stars</span> Featured</h2>
+        <div class="list">
+
+          <div class="item">
+            <div class="ico"><span class="material-symbols-rounded">vpn_lock</span></div>
+            <div class="content">
+              <p class="t">v2rayN + Shadowsocks + TUN (Sing-box)</p>
+              <p class="d">VPN-like tunneling and proxy management notes (Sing-box TUN).</p>
+            </div>
+            <div class="linkrow">
+              <a href="https://gist.github.com/michele-tn/9f5b98583c2d69f820f149bbde15f41b" target="_blank" rel="noreferrer">
+                <md-filled-tonal-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open</md-filled-tonal-button>
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="ico"><span class="material-symbols-rounded">developer_board</span></div>
+            <div class="content">
+              <p class="t">sing-box TUN Controller (PowerShell GUI)</p>
+              <p class="d">Windows GUI controller for a VPN-like Shadowsocks + TUN connector.</p>
+            </div>
+            <div class="linkrow">
+              <a href="https://github.com/michele-tn/sing-box-TUN-Controller-PowerShell-GUI-Shadowsocks-VPN-like-Connector-for-Windows" target="_blank" rel="noreferrer">
+                <md-filled-tonal-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open</md-filled-tonal-button>
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="ico"><span class="material-symbols-rounded">extension</span></div>
+            <div class="content">
+              <p class="t">m3u8 Catcher Pro v4.6 (Chrome extension)</p>
+              <p class="d">Capture streaming URLs in real-time (.m3u8, .mp4, .ts, .mkv) with advanced UI.</p>
+            </div>
+            <div class="linkrow">
+              <a href="https://github.com/michele-tn/m3u8-Catcher-Pro-v4.6-Chrome-extension" target="_blank" rel="noreferrer">
+                <md-filled-tonal-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open</md-filled-tonal-button>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="card" aria-label="Security & hardening">
+        <h2><span class="material-symbols-rounded">shield_lock</span> Security & hardening</h2>
+        <div class="list">
+          <div class="item">
+            <div class="ico"><span class="material-symbols-rounded">folder_managed</span></div>
+            <div class="content">
+              <p class="t">Secure Guest SFTP User (Ubuntu 22.04.5)</p>
+              <p class="d">Locked-down SFTP-only user with chroot isolation and safe permissions.</p>
+            </div>
+            <div class="linkrow">
+              <a href="https://gist.github.com/michele-tn/6185f852f80297dec232b67ecad85c3e" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open</md-outlined-button>
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="ico"><span class="material-symbols-rounded">mail</span></div>
+            <div class="content">
+              <p class="t">Fail2Ban Email Notifications (Gmail SMTP / API)</p>
+              <p class="d">Secure notification pipeline + manage_fail2ban.sh (v3).</p>
+            </div>
+            <div class="linkrow">
+              <a href="https://github.com/michele-tn/Secure-E-mail-Notifications-for-Fail2Ban-using-Gmail-SMTP-or-Gmail-API/blob/main/README.MD" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open</md-outlined-button>
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="ico"><span class="material-symbols-rounded">policy</span></div>
+            <div class="content">
+              <p class="t">Sentinel Report</p>
+              <p class="d">Linux security triage & incident report generator (HTML-oriented).</p>
+            </div>
+            <div class="linkrow">
+              <a href="https://github.com/michele-tn/Sentinel-Report?tab=readme-ov-file" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open</md-outlined-button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" aria-label="Ops & automation">
+        <h2><span class="material-symbols-rounded">build_circle</span> Ops & automation</h2>
+        <div class="list">
+          <div class="item">
+            <div class="ico"><span class="material-symbols-rounded">cleaning_services</span></div>
+            <div class="content">
+              <p class="t">Ubuntu Deep Cleanup Script</p>
+              <p class="d">Interactive deep cleanup for disk-constrained systems (safe/aggressive profiles).</p>
+            </div>
+            <div class="linkrow">
+              <a href="https://gist.github.com/michele-tn/4418155343e8ea6a1bd08c666758513c" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open</md-outlined-button>
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="ico"><span class="material-symbols-rounded">desktop_windows</span></div>
+            <div class="content">
+              <p class="t">RustDesk Portable Auto Downloader & Configurator</p>
+              <p class="d">Windows x64 automation notes for self-hosted RustDesk client configuration.</p>
+            </div>
+            <div class="linkrow">
+              <a href="https://gist.github.com/michele-tn/3dd7b8c2f4c6a4e3c21fd4b5c7d40a6d" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open</md-outlined-button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card wide" aria-label="Networking">
+        <h2><span class="material-symbols-rounded">lan</span> Networking & tunnels</h2>
+        <div class="list">
+          <div class="item">
+            <div class="ico"><span class="material-symbols-rounded">route</span></div>
+            <div class="content">
+              <p class="t">Show Localhost Tunnels (PowerShell)</p>
+              <p class="d">Analyze local TCP connections and visualize SSH tunnels with structured output.</p>
+            </div>
+            <div class="linkrow">
+              <a href="https://github.com/michele-tn/Show-Localhost-Tunnels" target="_blank" rel="noreferrer">
+                <md-outlined-button><span class="material-symbols-rounded" slot="icon">open_in_new</span>Open</md-outlined-button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card wide" aria-label="Philosophy">
+        <h2><span class="material-symbols-rounded">psychology</span> Philosophy</h2>
+        <p style="margin:0;color:var(--muted);line-height:1.7">
+          <b style="color:var(--text)">Code is not just execution. Code is understanding.</b><br/>
+          Learning is never archived — it is continuously engineered.
+        </p>
+        <div style="margin-top:12px"><md-divider></md-divider></div>
+        <div class="linkrow" style="margin-top:12px; justify-content:flex-start">
+          <a href="https://gist.github.com/michele-tn" target="_blank" rel="noreferrer">
+            <md-outlined-button><span class="material-symbols-rounded" slot="icon">snippet_folder</span>Browse all gists</md-outlined-button>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</body>
+</html>

@@ -30,12 +30,10 @@
       --muted:#A6B2C6;
 
       --surface: rgba(14, 18, 28, .72);
-      --surface2: rgba(12, 16, 25, .62);
-      --surface3: rgba(10, 14, 22, .52);
+      --surface2: rgba(12, 16, 25, .58);
 
       --outline: rgba(255,255,255,.12);
       --outline2: rgba(255,255,255,.08);
-      --outline3: rgba(255,255,255,.06);
 
       --shadow: 0 24px 70px rgba(0,0,0,.58);
       --shadow2: 0 14px 36px rgba(0,0,0,.38);
@@ -44,9 +42,9 @@
       --radius2: 22px;
       --max: 1140px;
 
-      --accentA: rgba(140,170,255,.22);
+      --accentA: rgba(140,170,255,.20);
       --accentB: rgba(120,255,210,.14);
-      --accentC: rgba(190,140,255,.14);
+      --accentC: rgba(190,140,255,.12);
     }
 
     *{ box-sizing:border-box; }
@@ -58,37 +56,24 @@
       font-family: Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
       color: var(--text);
 
-      /* premium continuous background */
       background:
-        radial-gradient(1200px 780px at 18% -12%, rgba(140,170,255,.20), transparent 60%),
-        radial-gradient(900px 680px at 108% 18%, rgba(120,255,210,.14), transparent 62%),
-        radial-gradient(900px 720px at 24% 118%, rgba(190,140,255,.12), transparent 66%),
+        radial-gradient(1200px 780px at 18% -12%, rgba(140,170,255,.18), transparent 60%),
+        radial-gradient(900px 680px at 108% 18%, rgba(120,255,210,.12), transparent 62%),
+        radial-gradient(900px 720px at 24% 118%, rgba(190,140,255,.10), transparent 66%),
         linear-gradient(180deg, var(--bg0), var(--bg1));
       background-attachment: fixed, fixed, fixed, fixed;
       overflow-x:hidden;
     }
 
-    /* subtle noise + vignette (no hard masks -> no white gaps) */
-    body::before{
-      content:"";
-      position:fixed;
-      inset:0;
-      pointer-events:none;
-      background:
-        radial-gradient(900px 600px at 50% 10%, rgba(0,0,0,.25), transparent 55%),
-        radial-gradient(900px 700px at 50% 120%, rgba(0,0,0,.35), transparent 60%);
-      opacity:.9;
-      z-index:0;
-    }
     body::after{
       content:"";
       position:fixed;
       inset:0;
       pointer-events:none;
-      opacity:.08;
+      opacity:.075;
       background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
       mix-blend-mode: overlay;
-      z-index:0;
+      z-index: 0;
     }
 
     .wrap{
@@ -99,7 +84,7 @@
       z-index:1;
     }
 
-    /* Sticky topbar with blur */
+    /* Sticky topbar */
     .topbar{
       position: sticky;
       top: 12px;
@@ -116,7 +101,6 @@
       box-shadow: 0 10px 28px rgba(0,0,0,.28);
       margin-bottom: 14px;
     }
-
     .brand{
       display:flex;
       align-items:center;
@@ -128,7 +112,7 @@
       border-radius: 14px;
       display:grid; place-items:center;
       background: linear-gradient(135deg, var(--accentA), var(--accentB));
-      border: 1px solid var(--outline2);
+      border: 1px solid rgba(255,255,255,.10);
       box-shadow: 0 10px 22px rgba(0,0,0,.30);
       flex: 0 0 auto;
     }
@@ -157,7 +141,7 @@
       justify-content:flex-end;
     }
 
-    /* Hero */
+    /* HERO: README-like */
     .hero{
       border-radius: var(--radius2);
       background: linear-gradient(180deg, rgba(255,255,255,.075), rgba(255,255,255,.028));
@@ -172,46 +156,85 @@
       inset:-1px;
       pointer-events:none;
       background:
-        radial-gradient(980px 320px at 18% 0%, rgba(140,170,255,.18), transparent 60%),
-        radial-gradient(840px 360px at 105% 18%, rgba(120,255,210,.13), transparent 62%),
-        radial-gradient(760px 420px at 6% 120%, rgba(190,140,255,.12), transparent 62%);
+        radial-gradient(980px 320px at 18% 0%, rgba(140,170,255,.16), transparent 60%),
+        radial-gradient(840px 360px at 105% 18%, rgba(120,255,210,.12), transparent 62%),
+        radial-gradient(760px 420px at 6% 120%, rgba(190,140,255,.10), transparent 62%);
       opacity: .95;
     }
-    .hero::after{
+
+    /* Banner image like GitHub README header */
+    .heroBanner{
+      position:relative;
+      z-index:1;
+      margin: 14px;
+      border-radius: 18px;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(0,0,0,.18);
+      box-shadow: 0 14px 30px rgba(0,0,0,.35);
+      aspect-ratio: 21 / 6;         /* wide banner */
+    }
+    .heroBanner img{
+      width:100%;
+      height:100%;
+      object-fit: cover;            /* keeps it “banner-like” */
+      object-position: center;
+      display:block;
+      transform: scale(1.01);
+    }
+    .heroBanner::after{
       content:"";
       position:absolute;
       inset:0;
       pointer-events:none;
       background:
-        linear-gradient(90deg, rgba(0,0,0,.40), rgba(0,0,0,.08) 48%, rgba(0,0,0,.22));
-      opacity:.70;
+        linear-gradient(90deg, rgba(0,0,0,.48), rgba(0,0,0,.10) 55%, rgba(0,0,0,.38));
     }
+    .heroMark{
+      position:absolute;
+      inset:0;
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      padding: 18px 18px;
+      z-index:2;
+      pointer-events:none;
+    }
+    .heroMark span{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: clamp(22px, 3vw, 44px);
+      letter-spacing: .08em;
+      color: rgba(234,241,255,.90);
+      text-shadow: 0 12px 30px rgba(0,0,0,.55);
+      opacity:.92;
+    }
+
     .heroInner{
       position:relative;
       z-index:1;
-      padding: 24px;
+      padding: 4px 22px 22px;
       display:grid;
-      grid-template-columns: 1.35fr .65fr;
-      gap:16px;
-      align-items:stretch;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      text-align:center;            /* README-like center */
     }
 
     .quoteTitle{
-      margin:0;
-      font-size: 34px;
+      margin: 6px auto 0;
+      max-width: 22ch;
+      font-size: clamp(28px, 3.2vw, 44px);
       line-height: 1.08;
-      letter-spacing: .2px;
       font-weight: 800;
-      color: rgba(234,241,255,.95);
+      color: rgba(234,241,255,.96);
       text-shadow: 0 18px 60px rgba(0,0,0,.55);
     }
 
-    .quoteMeta{
-      margin-top: 10px;
+    .metaLine{
       display:flex;
-      flex-wrap:wrap;
+      justify-content:center;
       gap:10px;
-      align-items:center;
+      flex-wrap:wrap;
+      margin-top: 6px;
       color: var(--muted);
       font-size: 13px;
     }
@@ -229,17 +252,68 @@
     .metaPill .material-symbols-rounded{ font-size:18px; opacity:.9; }
 
     .sub{
-      margin: 10px 0 0;
+      margin: 6px auto 0;
+      max-width: 76ch;
       color: rgba(166,178,198,.95);
-      font-size: 14.7px;
-      line-height: 1.68;
-      max-width: 72ch;
+      font-size: 14.8px;
+      line-height: 1.7;
+    }
+
+    /* Centered GIF like README (NO CROP) */
+    .heroMedia{
+      margin-top: 6px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap: 10px;
+    }
+    .gifFrame{
+      width: min(560px, 92%);
+      border-radius: 18px;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(0,0,0,.18);
+      box-shadow: 0 14px 30px rgba(0,0,0,.35);
+      padding: 10px;
+    }
+    .gifFrame img{
+      width:100%;
+      height:auto;                 /* IMPORTANT: no forced height */
+      object-fit: contain;         /* IMPORTANT: no crop */
+      display:block;
+      border-radius: 12px;
+      background: rgba(255,255,255,.03);
+    }
+
+    /* Badge under GIF (no crop) */
+    .badgeRow{
+      display:flex;
+      justify-content:center;
+      width:100%;
+    }
+    .badgePill{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding: 10px 12px;
+      border-radius: 999px;
+      background: rgba(12,16,25,.55);
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: 0 10px 22px rgba(0,0,0,.30);
+    }
+    .badgePill img{
+      height: 18px;
+      width:auto;
+      display:block;
+      opacity:.98;
+      image-rendering: -webkit-optimize-contrast;
     }
 
     /* Chips */
     .chips{
-      margin-top: 14px;
+      margin-top: 6px;
       display:flex;
+      justify-content:center;
       flex-wrap:wrap;
       gap:8px;
     }
@@ -264,140 +338,53 @@
     }
     .chip .material-symbols-rounded{ font-size:18px; opacity:.85; }
 
-    .heroSide{
+    /* Small profile row under hero (optional, clean) */
+    .miniProfile{
+      margin: 10px auto 0;
+      width: min(560px, 92%);
       display:flex;
-      flex-direction:column;
-      gap:12px;
+      align-items:center;
       justify-content:space-between;
-      min-width:0;
+      gap:12px;
+      padding: 12px;
+      border-radius: 18px;
+      background: var(--surface2);
+      border: 1px solid rgba(255,255,255,.08);
+      backdrop-filter: blur(12px);
+      box-shadow: var(--shadow2);
+      text-align:left;
     }
-
-    .profile{
+    .miniLeft{
       display:flex;
       align-items:center;
       gap:12px;
-      padding: 12px;
-      border-radius: 16px;
-      background: rgba(12,16,25,.52);
-      border: 1px solid rgba(255,255,255,.08);
-      backdrop-filter: blur(12px);
-      box-shadow: 0 10px 22px rgba(0,0,0,.28);
+      min-width:0;
     }
     .avatar{
-      width:56px; height:56px;
-      border-radius: 16px;
-      border: 1px solid rgba(255,255,255,.12);
+      width:46px; height:46px;
+      border-radius: 14px;
       overflow:hidden;
+      border: 1px solid rgba(255,255,255,.12);
       flex: 0 0 auto;
-      background: #0a0f14;
+      background:#0a0f14;
     }
     .avatar img{ width:100%; height:100%; object-fit:cover; display:block; }
     .who{ min-width:0; }
-    .who .name{ margin:0; font-weight: 800; font-size: 14.5px; }
-    .who .meta{ margin:2px 0 0; font-size: 12.5px; color: var(--muted); }
+    .who .name{ margin:0; font-weight:800; font-size: 14px; }
+    .who .meta{ margin:2px 0 0; color: var(--muted); font-size: 12.5px; }
 
-    /* Media card: better visuals + hover zoom */
-    .mediaCard{
-      border-radius: 18px;
-      background: rgba(12,16,25,.52);
-      border: 1px solid rgba(255,255,255,.08);
-      box-shadow: 0 12px 26px rgba(0,0,0,.30);
-      overflow:hidden;
-    }
-    .mediaCardHead{
-      padding: 12px 12px 10px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-      border-bottom: 1px solid rgba(255,255,255,.06);
-    }
-    .mediaCardHead .left{
-      display:flex;
-      align-items:center;
-      gap:10px;
-      min-width:0;
-    }
-    .mediaCardHead .label{
-      font-weight:800;
-      font-size: 13.5px;
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-      color: rgba(234,241,255,.92);
-    }
-
-    .mediaGrid{
-      display:grid;
-      grid-template-columns: 1fr;
-      gap:10px;
-      padding: 12px;
-    }
-
-    .imgFrame{
-      border-radius: 16px;
-      border: 1px solid rgba(255,255,255,.10);
-      background: rgba(0,0,0,.18);
-      overflow:hidden;
-      box-shadow: 0 12px 26px rgba(0,0,0,.34);
-      position:relative;
-    }
-    .imgFrame::after{
-      content:"";
-      position:absolute;
-      inset:0;
-      pointer-events:none;
-      background: linear-gradient(180deg, rgba(0,0,0,.0), rgba(0,0,0,.35));
-      opacity:.9;
-    }
-    .imgFrame img{
-      width:100%;
-      display:block;
-      transform: scale(1.01);
-      transition: transform .25s ease;
-    }
-    .imgFrame:hover img{ transform: scale(1.05); }
-
-    .imgFrame img.gif{
-      height: 170px;
-      object-fit: cover;
-    }
-
-    .badgeFrame{
-      padding: 12px;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      background: rgba(0,0,0,.12);
-    }
-    .badgeFrame img.svgBadge{
-      height: 22px;
-      width:auto;
-      opacity: .98;
-      image-rendering: -webkit-optimize-contrast;
-      transform: translateZ(0);
-    }
-
-    .heroActions{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      justify-content:flex-end;
-    }
-
-    /* Sections */
+    /* Content sections (same structure as before) */
     .grid{
       margin-top: 16px;
       display:grid;
       grid-template-columns: repeat(12, 1fr);
       gap: 14px;
     }
-
     .card{
       grid-column: span 6;
       border-radius: var(--radius);
       background: var(--surface);
-      border: 1px solid var(--outline3);
+      border: 1px solid rgba(255,255,255,.06);
       box-shadow: var(--shadow2);
       padding: 16px;
       backdrop-filter: blur(12px);
@@ -428,7 +415,6 @@
       flex-direction:column;
       gap:10px;
     }
-
     .item{
       display:flex;
       gap:12px;
@@ -444,7 +430,6 @@
       border-color: rgba(255,255,255,.15);
       background: rgba(10,14,22,.58);
     }
-
     .ico{
       width:40px; height:40px;
       border-radius: 14px;
@@ -454,20 +439,9 @@
       flex: 0 0 auto;
     }
     .ico .material-symbols-rounded{ font-size: 20px; opacity: .9; }
-
     .content{ min-width:0; flex: 1 1 auto; }
-    .content .t{
-      margin:0;
-      font-weight: 800;
-      font-size: 14.5px;
-      letter-spacing:.2px;
-    }
-    .content .d{
-      margin: 3px 0 0;
-      font-size: 13px;
-      color: var(--muted);
-      line-height: 1.45;
-    }
+    .content .t{ margin:0; font-weight:800; font-size: 14.5px; letter-spacing:.2px; }
+    .content .d{ margin: 3px 0 0; font-size: 13px; color: var(--muted); line-height: 1.45; }
 
     .linkrow{
       display:flex;
@@ -518,11 +492,10 @@
     a{ color: inherit; text-decoration: none; }
 
     @media (max-width: 960px){
-      .heroInner{ grid-template-columns: 1fr; }
-      .heroActions{ justify-content:flex-start; }
       .card{ grid-column: span 12; }
       .quick{ grid-column: span 12; }
-      .imgFrame img.gif{ height: 200px; }
+      .heroBanner{ margin: 12px; }
+      .heroInner{ padding: 4px 14px 18px; }
     }
   </style>
 </head>
@@ -530,7 +503,7 @@
 <body>
   <div class="wrap">
 
-    <!-- Sticky Topbar -->
+    <!-- Topbar -->
     <header class="topbar">
       <div class="brand">
         <div class="spark"><span class="material-symbols-rounded">terminal</span></div>
@@ -558,35 +531,54 @@
 
     <!-- HERO -->
     <section class="hero" aria-label="Hero">
+
+      <!-- README banner -->
+      <div class="heroBanner">
+        <img src="./github-header-image.png" alt="Header banner" />
+        <div class="heroMark"><span>michele-tn</span></div>
+      </div>
+
       <div class="heroInner">
+        <h2 class="quoteTitle">
+          𝘾𝒐𝙢𝒑𝙪𝒕𝙚𝒓 𝒔𝙘𝒊𝙚𝙣𝒄𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝒖𝙩 𝙘𝒐𝙢𝒑𝙪𝒕𝙚𝒓𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝒚 𝒊𝙨 𝙖𝒃𝙤𝒖𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!
+        </h2>
 
-        <div>
-          <h2 class="quoteTitle">
-            𝘾𝒐𝙢𝒑𝙪𝒕𝙚𝒓 𝒔𝙘𝒊𝙚𝒏𝙘𝒆 𝒊𝙨 𝙣𝒐 𝒎𝙤𝒓𝙚 𝙖𝒃𝙤𝒖𝙩 𝙘𝒐𝙢𝒑𝙪𝒕𝙚𝒓𝙨 𝙩𝒉𝙖𝒏 𝒂𝙨𝒕𝙧𝒐𝙣𝒐𝙢𝒚 𝒊𝙨 𝙖𝒃𝙤𝒖𝙩 𝙩𝒆𝙡𝒆𝙨𝒄𝙤𝒑𝙚𝒔!
-          </h2>
+        <div class="metaLine">
+          <span class="metaPill">
+            <span class="material-symbols-rounded">workspace_premium</span>
+            E. W. Dijkstra (1930–2002) · Turing Award (1972)
+          </span>
+        </div>
 
-          <div class="quoteMeta">
-            <span class="metaPill">
-              <span class="material-symbols-rounded">workspace_premium</span>
-              E. W. Dijkstra (1930–2002) · Turing Award (1972)
-            </span>
+        <p class="sub">
+          A living technical notebook where ideas become scripts, tools, and documentation.
+          Built around analysis → experimentation → refinement → documentation.
+        </p>
+
+        <!-- GIF + badge like README (centered, no crop) -->
+        <div class="heroMedia" aria-label="Media">
+          <div class="gifFrame">
+            <img src="./03052025.gif" alt="Header animation" />
           </div>
 
-          <p class="sub">
-            A living technical notebook where ideas become scripts, tools, and documentation.
-            Built around analysis → experimentation → refinement → documentation.
-          </p>
-
-          <div class="chips" aria-label="Topics">
-            <span class="chip"><span class="material-symbols-rounded">terminal</span>Bash / PowerShell</span>
-            <span class="chip"><span class="material-symbols-rounded">speed</span>DNS Testing</span>
-            <span class="chip"><span class="material-symbols-rounded">shield_lock</span>Linux Hardening</span>
-            <span class="chip"><span class="material-symbols-rounded">menu_book</span>Study Notes</span>
+          <div class="badgeRow">
+            <span class="badgePill">
+              <a href="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg" alt="Badge" />
+              </a>
+            </span>
           </div>
         </div>
 
-        <aside class="heroSide" aria-label="Profile & media">
-          <div class="profile">
+        <div class="chips" aria-label="Topics">
+          <span class="chip"><span class="material-symbols-rounded">terminal</span>Bash / PowerShell</span>
+          <span class="chip"><span class="material-symbols-rounded">speed</span>DNS Testing</span>
+          <span class="chip"><span class="material-symbols-rounded">shield_lock</span>Linux Hardening</span>
+          <span class="chip"><span class="material-symbols-rounded">menu_book</span>Study Notes</span>
+        </div>
+
+        <div class="miniProfile" aria-label="Profile row">
+          <div class="miniLeft">
             <div class="avatar">
               <img src="https://github.com/michele-tn.png?size=200" alt="michele-tn avatar" />
             </div>
@@ -596,29 +588,7 @@
             </div>
           </div>
 
-          <!-- ONE clean media card -->
-          <div class="mediaCard" aria-label="Media">
-            <div class="mediaCardHead">
-              <div class="left">
-                <span class="material-symbols-rounded">image</span>
-                <div class="label">Highlights</div>
-              </div>
-            </div>
-
-            <div class="mediaGrid">
-              <div class="imgFrame" title="Header animation">
-                <img class="gif" src="./03052025.gif" alt="Header animation" />
-              </div>
-
-              <div class="imgFrame badgeFrame" title="Badge">
-                <a href="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg" target="_blank" rel="noreferrer">
-                  <img class="svgBadge" src="https://raw.githubusercontent.com/michele-tn/michele-tn/main/2026-01-16_143810.svg" alt="SVG badge" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="heroActions">
+          <div class="miniRight">
             <a href="https://michele-tn.github.io/" target="_blank" rel="noreferrer">
               <md-filled-tonal-button>
                 <span class="material-symbols-rounded" slot="icon">public</span>
@@ -626,12 +596,12 @@
               </md-filled-tonal-button>
             </a>
           </div>
-        </aside>
+        </div>
 
       </div>
     </section>
 
-    <!-- CONTENT -->
+    <!-- CONTENT (unchanged items, still without SSH Tunnels + no README button + no footer) -->
     <div class="grid">
 
       <section class="card wide" aria-label="Quick links">
@@ -829,7 +799,7 @@
 
       <section class="card wide" aria-label="Philosophy">
         <h2><span class="material-symbols-rounded">psychology</span> Philosophy</h2>
-        <p style="margin:0;color:var(--muted);line-height:1.7">
+        <p style="margin:0;color:var(--muted);line-height:1.7; text-align:left">
           <b style="color:var(--text)">Code is not just execution. Code is understanding.</b><br/>
           Learning is never archived — it is continuously engineered.
         </p>

@@ -224,6 +224,23 @@ Here, every project is both a result and a step forward.
   </tr>
 </table> -->
 
+<tr>
+  <td>
+    <p align="left">
+      <a href="https://github.com/michele-tn/ANSI-NFO-Viewer-Widget">
+        <img src="https://raw.githubusercontent.com/michele-tn/ANSI-NFO-Viewer-Widget/main/ANSI_NFO_Viewer_Widget.svg"
+             alt="ANSI NFO Viewer Widget"
+             width="420">
+      </a>
+    </p>
+    <strong>ANSI NFO Viewer Widget</strong><br/>
+    Lightweight embeddable widget for displaying classic <strong>ANSI / NFO scene files</strong> directly in the browser.
+    Preserves monospace formatting, ASCII art alignment, and retro text aesthetics with clean responsive rendering.
+    Ideal for portfolios, retro projects, warez-scene archives, documentation pages, and nostalgic web experiences.
+    Delivered as a simple standalone SVG-based component for easy integration into any website or repository.
+  </td>
+</tr>
+
 <p align="left">
   <a href="https://github.com/michele-tn/sing-box-TUN-Controller-PowerShell-GUI-Shadowsocks-VPN-like-Connector-for-Windows" target="_blank">
     <img 

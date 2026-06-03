@@ -165,6 +165,12 @@ Here, every project is both a result and a step forward.
 <p align="center">= — — — — — — — — — — — — — — — — — — — — — =</p><br/>
 
 <br/>
+
+<a href="https://gist.github.com/michele-tn/3f8e5f50e76379908d1e702550ea1b0c" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/michele-tn/michele-tn/refs/heads/main/GITS/CWP-Archive-Guide-GitHub-Gist.svg">
+</a>
+
+
       <a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6">
         <img src="https://img.shields.io/badge/Sublist3r-Linux%20Diagnostics-green" />
       </a><br/>

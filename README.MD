@@ -89,7 +89,8 @@ Here, every project is both a result and a step forward.
 
 ---
 
-<p align="center">= — — — — — — — — — — — — — — — — — — — — — =</p><br/>
+<p align="center">= — — — — — — — — — — — — — — — — — — — — — =</p>
+
 <table style="width:100%;">
 
   <tr>

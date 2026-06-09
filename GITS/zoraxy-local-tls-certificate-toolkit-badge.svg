@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="130" viewBox="0 0 760 130" role="img" aria-labelledby="title desc">
+<title id="title">Zoraxy Local TLS Certificate Toolkit Guide</title>
+<desc id="desc">Clickable badge linking to a guide for generating and deploying local TLS certificates for Zoraxy on Windows.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0f172a"/>
+    <stop offset="100%" stop-color="#020617"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#38bdf8"/>
+    <stop offset="50%" stop-color="#22c55e"/>
+    <stop offset="100%" stop-color="#a78bfa"/>
+  </linearGradient>
+  <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#22d3ee"/>
+    <stop offset="100%" stop-color="#22c55e"/>
+  </linearGradient>
+  <filter id="shadow">
+    <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.25"/>
+  </filter>
+</defs>
+
+<a href="https://gist.github.com/michele-tn/6a18e46187d7e9f3f8f9b60c78e1a10e#file-zoraxy-local-tls-certificate-toolkit-guide-md" target="_blank" rel="noopener noreferrer">
+  <rect width="760" height="130" rx="20" fill="url(#bg)"/>
+
+  <circle cx="705" cy="20" r="70" fill="#a78bfa" opacity="0.06"/>
+  <circle cx="42" cy="120" r="55" fill="#22d3ee" opacity="0.05"/>
+  <circle cx="372" cy="118" r="95" fill="#22c55e" opacity="0.035"/>
+
+  <rect x="24" y="12" width="712" height="3" rx="2" fill="url(#line)"/>
+
+  <g>
+    <rect x="26" y="32" width="180" height="66" rx="12" fill="#0b1220" stroke="#334155"/>
+    <circle cx="45" cy="49" r="4" fill="#ef4444"/>
+    <circle cx="60" cy="49" r="4" fill="#f59e0b"/>
+    <circle cx="75" cy="49" r="4" fill="#22c55e"/>
+
+    <path d="M53 61 L74 53 L95 61 V76 C95 88 86 94 74 99 C62 94 53 88 53 76 Z" fill="url(#shield)" opacity="0.95"/>
+    <path d="M67 76 L72 81 L83 68" fill="none" stroke="#ecfeff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="110" y="61" width="58" height="38" rx="5" fill="#111827" stroke="#475569"/>
+    <path d="M122 61 V55 C122 47 128 42 139 42 C150 42 156 47 156 55 V61" fill="none" stroke="#7dd3fc" stroke-width="4" stroke-linecap="round"/>
+    <text x="139" y="85" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#dbeafe">TLS</text>
+  </g>
+
+  <text x="235" y="49" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff">Zoraxy Local TLS Toolkit</text>
+  <text x="235" y="73" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#dbe4f0">Root CA, server certificates and Windows client trust</text>
+  <text x="235" y="94" font-family="Segoe UI,Arial,sans-serif" font-size="11.5" fill="#86efac">Secure local HTTPS workflow • Zoraxy fullchain • GPO deployment notes</text>
+
+  <g>
+    <rect x="630" y="38" width="102" height="28" rx="14" fill="#052e2b" stroke="#14b8a6"/>
+    <text x="681" y="56" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" font-weight="700" fill="#ccfbf1">TLS GUIDE</text>
+    <rect x="650" y="74" width="82" height="34" rx="17" fill="#1e293b" stroke="#475569"/>
+    <text x="691" y="95" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff">OPEN</text>
+  </g>
+</a>
+</svg>

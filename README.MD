@@ -178,9 +178,9 @@ Here, every project is both a result and a step forward.
 <a href="https://gist.github.com/michele-tn/3dbb072e663194d2c6392043daf327c4#3-human-centred-design-hci-usability-and-accessibility" target="_blank" rel="noopener noreferrer">
   <img src="https://raw.githubusercontent.com/michele-tn/michele-tn/refs/heads/main/GITS/human-centred-design-usability-badge-v4-fixed.svg" alt="Human-Centred Design, HCI, Usability and Accessibility">
 </a><br/><br/>
-<br/><br/>
-<a href="https://gist.github.com/michele-tn/3dbb072e663194d2c6392043daf327c4#3-human-centred-design-hci-usability-and-accessibility" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/michele-tn/michele-tn/refs/heads/main/GITS/human-centred-design-usability-badge-v4-fixed.svg" alt="Human-Centred Design, HCI, Usability and Accessibility">
+
+<a href="https://gist.github.com/michele-tn/6a18e46187d7e9f3f8f9b60c78e1a10e#file-zoraxy-local-tls-certificate-toolkit-guide-md">
+  <img src="https://raw.githubusercontent.com/michele-tn/michele-tn/refs/heads/main/GITS/zoraxy-local-tls-certificate-toolkit-badge.svg" alt="Zoraxy Local TLS Certificate Toolkit Guide">
 </a><br/><br/>
 
 <a href="https://gist.github.com/michele-tn/1334d8796d2c4e308f9da69d34db49b6">
